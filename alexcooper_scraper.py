@@ -185,16 +185,13 @@ async def scrape_listings(page):
     page.on("response", handle_response)
 
     print("  Loading foreclosures page...")
+    # The page is server-rendered by Angular — lots appear in initial HTML.
+    # Use networkidle so Angular finishes rendering before we read the DOM.
     await page.goto(FORECLOSURES_URL, wait_until="networkidle", timeout=45000)
-    # Extra wait for Angular lazy-load after networkidle
-    await page.wait_for_timeout(5000)
+    await page.wait_for_timeout(3000)
 
-    # Scroll to bottom to trigger lazy-loaded content, then wait again
-    await page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
-    await page.wait_for_timeout(5000)
-
-    print(f"  Intercepted {len(api_data)} JSON response(s)")
-    print(f"  All JSON URLs seen: {all_json_urls[:20]}")
+    print(f"  Intercepted {len(api_data)} JSON response(s) (informational)")
+    print(f"  All JSON URLs seen: {all_json_urls}")
 
     # Parse API data
     auctions = []
@@ -257,49 +254,110 @@ async def scrape_listings(page):
     return auctions
 
 
-# ── DOM fallback scraper ───────────────────────────────────────────────────────
+# ── DOM scraper — Alex Cooper foreclosure page structure ──────────────────────
 async def scrape_listings_dom(page):
+    """
+    The foreclosure page renders lots server-side inside Angular ng-repeat.
+    Structure (siblings in DOM order):
+      .foreclosure-date-header  → tracks current auction date
+      .alexcooper-foreclosure-container  → one lot, contains:
+          .county-title          → county name (only on first lot per county)
+          .foreclosure-lot       → has class 'cancelled'/'postponed' if not active
+              .foreclosure-title → "9:30 am 123 Main St, City, ZIP Dep. $20,000"
+          .foreclosure-location-description .location-value → courthouse address
+    """
+    raw = await page.evaluate(r"""
+    () => {
+        const BASE = 'https://realestate.alexcooper.com';
+        const results = [];
+        const elements = document.querySelectorAll(
+            '.foreclosure-date-header, .alexcooper-foreclosure-container'
+        );
+
+        let currentDate = '';
+
+        for (const el of elements) {
+            if (el.classList.contains('foreclosure-date-header')) {
+                const month = el.querySelector('.full-date .month');
+                const day   = el.querySelector('.full-date .date');
+                const year  = el.querySelector('.full-date .year');
+                const m = month ? month.textContent.trim() : '';
+                const d = day   ? day.textContent.replace(/[^0-9]/g, '').trim() : '';
+                const y = year  ? year.textContent.trim() : String(new Date().getFullYear());
+                currentDate = d && m ? `${m} ${d}, ${y}` : '';
+            } else {
+                const idMatch    = el.className.match(/list-lot-id-([\w-]+)/);
+                const lotId      = idMatch ? idMatch[1] : '';
+                const numericId  = (el.id || '').replace('list-lot-', '');
+                const countyEl   = el.querySelector('.county-title');
+                const titleEl    = el.querySelector('.foreclosure-title');
+                const locationEl = el.querySelector('.location-value');
+                const lotEl      = el.querySelector('.foreclosure-lot');
+                const cancelled  = lotEl && lotEl.classList.contains('cancelled');
+                const postponed  = lotEl && lotEl.classList.contains('postponed');
+
+                results.push({
+                    lotId,
+                    numericId,
+                    date:     currentDate,
+                    county:   countyEl   ? countyEl.textContent.trim()   : '',
+                    title:    titleEl    ? titleEl.textContent.trim()     : '',
+                    location: locationEl ? locationEl.textContent.trim()  : '',
+                    cancelled,
+                    postponed,
+                    detailUrl: numericId ? `${BASE}/lots/${numericId}` : '',
+                });
+            }
+        }
+        return results;
+    }
+    """)
+
+    print(f"  DOM: found {len(raw)} lot element(s) on page")
+
     auctions = []
-    seen     = set()
+    last_location = ''  # location only appears on last lot per auction group
 
-    # Only grab links that point to actual lot/property detail pages
-    # Real property links on AuctionMobility look like /lots/123 or /upcoming/123
-    cards = await page.query_selector_all(
-        'a[href*="/lots/"], a[href*="/upcoming/"], a[href*="/lot-detail/"]'
-    )
-    print(f"  DOM: found {len(cards)} property link elements")
+    for item in reversed(raw):
+        if item.get('location'):
+            last_location = item['location']
+        item['_loc'] = last_location
 
-    for card in cards:
-        try:
-            text = (await card.inner_text()).strip()
-            href = await card.get_attribute("href") or ""
+    last_location = ''
+    for item in raw:
+        if item.get('location'):
+            last_location = item['location']
+        else:
+            item['location'] = last_location
 
-            # Skip nav links, empty, or very short text
-            if not text or len(text) < 10:
-                continue
-            # Skip if it looks like a nav/menu item
-            if any(skip in text.lower() for skip in [
-                "all weeks", "foreclosures", "upcoming", "login",
-                "register", "contact", "sold", "buy now"
-            ]):
-                continue
+    for item in raw:
+        if item.get('cancelled'):
+            continue  # skip cancelled listings
 
-            detail_url = BASE_URL + href if href.startswith("/") else href
-            if detail_url in seen:
-                continue
-            seen.add(detail_url)
-
-            auctions.append({
-                "auction_date":     "",
-                "property_address": text[:100],
-                "auction_time":     "",
-                "auction_location": "",
-                "bid_deposit":      "",
-                "opening_bid":      "",
-                "detail_url":       detail_url,
-            })
-        except Exception:
+        title = item.get('title', '')
+        if not title:
             continue
+
+        # Parse "9:30 am 123 Main St, City, ZIP Dep. $20,000"
+        time_m = re.match(r'^(\d+:\d+\s*(?:am|pm))\s+', title, re.IGNORECASE)
+        auction_time = time_m.group(1).upper() if time_m else ''
+        remaining    = title[len(time_m.group(0)):].strip() if time_m else title
+
+        dep_m   = re.search(r'Dep\.?\s*\$?([\d,]+)', remaining, re.IGNORECASE)
+        deposit = f'${dep_m.group(1)}' if dep_m else ''
+        address = remaining[:dep_m.start()].strip() if dep_m else remaining.strip()
+
+        status_note = ' [POSTPONED]' if item.get('postponed') else ''
+
+        auctions.append({
+            'auction_date':     item.get('date', ''),
+            'property_address': address + status_note,
+            'auction_time':     auction_time,
+            'auction_location': item.get('location', ''),
+            'bid_deposit':      deposit,
+            'opening_bid':      '',
+            'detail_url':       item.get('detailUrl', ''),
+        })
 
     return auctions
 
