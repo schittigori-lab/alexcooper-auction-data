@@ -171,18 +171,16 @@ async def scrape_listings(page):
     async def handle_response(response):
         try:
             url = response.url
-            # Catch any JSON response from the site
-            if response.status == 200 and (
-                "/api/" in url or
-                "lots" in url or
-                "foreclos" in url or
-                "auction" in url
+            ct  = response.headers.get("content-type", "")
+            # Capture ALL json responses from the alex cooper domain
+            if response.status == 200 and "json" in ct and (
+                "alexcooper" in url or
+                "auctionmobility" in url or
+                "auctionatlas" in url
             ):
-                ct = response.headers.get("content-type", "")
-                if "json" in ct:
-                    data = await response.json()
-                    print(f"    API hit: {url[:80]}")
-                    api_data.append({"url": url, "data": data})
+                data = await response.json()
+                print(f"    API hit: {url[:80]}")
+                api_data.append({"url": url, "data": data})
         except Exception:
             pass
 
@@ -190,7 +188,7 @@ async def scrape_listings(page):
 
     print("  Loading foreclosures page...")
     await page.goto(FORECLOSURES_URL, wait_until="domcontentloaded", timeout=30000)
-    await page.wait_for_timeout(6000)  # give Angular extra time to load data
+    await page.wait_for_timeout(8000)  # give Angular extra time to load data
 
     print(f"  Intercepted {len(api_data)} API response(s)")
 
@@ -260,19 +258,26 @@ async def scrape_listings_dom(page):
     auctions = []
     seen     = set()
 
-    # Try broad selectors to find any lot/property cards
+    # Only grab links that point to actual lot/property detail pages
+    # Real property links on AuctionMobility look like /lots/123 or /upcoming/123
     cards = await page.query_selector_all(
-        'a[href*="foreclos"], a[href*="/lot/"], a[href*="/property/"], '
-        '[class*="lot"], [class*="property"], [class*="listing"], '
-        '[class*="card"], [class*="auction-item"]'
+        'a[href*="/lots/"], a[href*="/upcoming/"], a[href*="/lot-detail/"]'
     )
-    print(f"  DOM: found {len(cards)} candidate elements")
+    print(f"  DOM: found {len(cards)} property link elements")
 
     for card in cards:
         try:
             text = (await card.inner_text()).strip()
             href = await card.get_attribute("href") or ""
-            if not text or len(text) < 5:
+
+            # Skip nav links, empty, or very short text
+            if not text or len(text) < 10:
+                continue
+            # Skip if it looks like a nav/menu item
+            if any(skip in text.lower() for skip in [
+                "all weeks", "foreclosures", "upcoming", "login",
+                "register", "contact", "sold", "buy now"
+            ]):
                 continue
 
             detail_url = BASE_URL + href if href.startswith("/") else href
