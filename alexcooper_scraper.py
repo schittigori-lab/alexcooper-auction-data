@@ -460,7 +460,12 @@ async def main():
 
     # 4. Always save JSON (even if empty, so workflow doesn't crash)
     save_json(auctions)
-    upload_to_github(OUTPUT_JSON)
+
+    # Upload via GitHub API only when running locally (workflow uses git push)
+    if os.getenv("UPLOAD_TO_GITHUB", "").lower() == "true":
+        upload_to_github(OUTPUT_JSON)
+    else:
+        print("\n  (GitHub upload skipped — workflow will commit the file via git push)")
 
 
 if __name__ == "__main__":
