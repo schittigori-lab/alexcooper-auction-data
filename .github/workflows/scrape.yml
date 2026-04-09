@@ -1,0 +1,44 @@
+name: Alex Cooper Foreclosure Scraper
+
+on:
+  schedule:
+    # Runs every hour Mon-Fri 8am–5pm Eastern (UTC-4 in summer / UTC-5 in winter)
+    # Using UTC-4 (EDT): 8am ET = 12:00 UTC, 5pm ET = 21:00 UTC
+    - cron: '0 12,13,14,15,16,17,18,19,20,21 * * 1-5'
+  workflow_dispatch:  # allow manual trigger from GitHub Actions tab
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install requests playwright python-dotenv
+          playwright install chromium
+          playwright install-deps chromium
+
+      - name: Run scraper
+        env:
+          AC_EMAIL:       ${{ secrets.AC_EMAIL }}
+          AC_PASSWORD:    ${{ secrets.AC_PASSWORD }}
+          GITHUB_TOKEN:   ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USERNAME: schittigori-lab
+          GITHUB_REPO:    alexcooper-auction-data
+        run: python alexcooper_scraper.py
+
+      - name: Commit and push JSON
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add alexcooper_auctions.json
+          git diff --staged --quiet || git commit -m "Foreclosure update $(date +'%Y-%m-%d %H:%M')"
+          git push
