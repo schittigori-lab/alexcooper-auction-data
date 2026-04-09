@@ -8,7 +8,7 @@ Requires login to access full detail pages.
 OUTPUT: alexcooper_auctions.json  (uploaded to GitHub Pages)
 RUN:    py alexcooper_scraper.py
 
-Credentials stored in .env file (never hardcoded):
+Credentials stored in .env file or GitHub Secrets:
   AC_EMAIL=your@email.com
   AC_PASSWORD=yourpassword
   GITHUB_TOKEN=ghp_xxxx
@@ -57,11 +57,9 @@ LOGIN_URL        = "https://realestate.alexcooper.com/login"
 BASE_URL         = "https://realestate.alexcooper.com"
 OUTPUT_JSON      = "alexcooper_auctions.json"
 
-# Credentials — set in .env file or GitHub Secrets
 AC_EMAIL    = os.getenv("AC_EMAIL", "")
 AC_PASSWORD = os.getenv("AC_PASSWORD", "")
 
-# GitHub config
 GITHUB_TOKEN    = os.getenv("GITHUB_TOKEN", "")
 GITHUB_USERNAME = os.getenv("GITHUB_USERNAME", "schittigori-lab")
 GITHUB_REPO     = os.getenv("GITHUB_REPO", "alexcooper-auction-data")
@@ -75,162 +73,140 @@ USER_AGENT = (
 
 # ── Login ──────────────────────────────────────────────────────────────────────
 async def login(page):
-    """Log in to Alex Cooper and return True on success."""
     print("  Logging in to Alex Cooper...")
-    await page.goto(LOGIN_URL, wait_until="networkidle", timeout=30000)
-    await page.wait_for_timeout(1500)
+    print(f"  Using email: {AC_EMAIL[:4]}****")  # partial log to confirm secret loaded
 
-    # Fill email
-    await page.fill(
-        'input[type="email"], input[name="email"], input[placeholder*="Email" i]',
-        AC_EMAIL
-    )
-    await page.wait_for_timeout(400)
+    await page.goto(LOGIN_URL, wait_until="domcontentloaded", timeout=30000)
+    await page.wait_for_timeout(3000)  # wait for Angular to render login form
 
-    # Fill password
-    await page.fill('input[type="password"]', AC_PASSWORD)
-    await page.wait_for_timeout(400)
-
-    # Submit
-    await page.click(
-        'button[type="submit"], input[type="submit"], '
-        'button:has-text("Login"), button:has-text("Sign In")'
-    )
-    await page.wait_for_timeout(3000)
-
-    content = await page.content()
-    if "logout" in content.lower() or "my activity" in content.lower():
-        print("  Login successful!")
-        return True
-    else:
-        print("  WARNING: Login may have failed — check AC_EMAIL / AC_PASSWORD in .env")
-        return False
-
-
-# ── Scrape listings (primary: DOM selectors) ───────────────────────────────────
-async def scrape_listings(page):
-    """Navigate to foreclosures page and extract all lot listings."""
-    print("  Loading foreclosures page...")
-    await page.goto(FORECLOSURES_URL, wait_until="networkidle", timeout=30000)
-    await page.wait_for_timeout(3000)  # let Angular finish rendering
-
-    auctions = []
-    seen     = set()
-
-    lot_cards = await page.query_selector_all(
-        '.lot-card, .property-card, [class*="lot-item"], [class*="property-item"]'
-    )
-
-    if not lot_cards:
-        print("  Standard selectors not matched — trying API interception fallback...")
-        return await scrape_listings_via_api(page)
-
-    print(f"  Found {len(lot_cards)} lot cards")
-
-    for card in lot_cards:
+    # Try all common email input selectors
+    email_selectors = [
+        'input[type="email"]',
+        'input[name="email"]',
+        'input[placeholder*="Email" i]',
+        'input[placeholder*="email" i]',
+        'input[ng-model*="email" i]',
+    ]
+    filled_email = False
+    for sel in email_selectors:
         try:
-            # Address / title
-            address = ""
-            title_el = await card.query_selector('.lot-title, .property-title, h3, h4, h5')
-            if title_el:
-                address = (await title_el.inner_text()).strip()
-
-            # Date
-            auction_date = ""
-            date_el = await card.query_selector('[class*="date"], time')
-            if date_el:
-                auction_date = (await date_el.inner_text()).strip()
-
-            # Time (extracted from date string)
-            auction_time = ""
-            time_m = re.search(r'\d+:\d+\s*[AP]M', auction_date, re.IGNORECASE)
-            if time_m:
-                auction_time = time_m.group(0)
-
-            # County / location
-            auction_location = ""
-            county_el = await card.query_selector('[class*="county"], [class*="location"]')
-            if county_el:
-                auction_location = (await county_el.inner_text()).strip()
-
-            # Deposit
-            bid_deposit = ""
-            deposit_el = await card.query_selector('[class*="deposit"]')
-            if deposit_el:
-                raw = (await deposit_el.inner_text()).strip()
-                bid_deposit = re.sub(r'[Dd]eposit:?\s*', '', raw).strip()
-
-            # Opening bid
-            opening_bid = ""
-            bid_el = await card.query_selector('[class*="opening"], [class*="starting"], [class*="price"]')
-            if bid_el:
-                opening_bid = (await bid_el.inner_text()).strip()
-
-            # Detail URL
-            detail_url = ""
-            link_el = await card.query_selector('a')
-            if link_el:
-                href = await link_el.get_attribute('href')
-                if href:
-                    detail_url = (
-                        BASE_URL + href if href.startswith('/') else href
-                    )
-
-            if not address:
-                continue
-            if detail_url in seen:
-                continue
-            if detail_url:
-                seen.add(detail_url)
-
-            auctions.append({
-                "auction_date":     auction_date,
-                "property_address": address,
-                "auction_time":     auction_time,
-                "auction_location": auction_location,
-                "bid_deposit":      bid_deposit,
-                "opening_bid":      opening_bid,
-                "detail_url":       detail_url,
-            })
-
-        except Exception as e:
-            print(f"    Warning: error parsing card — {e}")
+            el = await page.query_selector(sel)
+            if el:
+                await page.fill(sel, AC_EMAIL)
+                filled_email = True
+                print(f"  Email filled using selector: {sel}")
+                break
+        except Exception:
             continue
 
-    return auctions
+    if not filled_email:
+        print("  WARNING: Could not find email input field")
+
+    await page.wait_for_timeout(500)
+
+    # Fill password
+    try:
+        await page.fill('input[type="password"]', AC_PASSWORD)
+        print("  Password filled")
+    except Exception as e:
+        print(f"  WARNING: Could not fill password — {e}")
+
+    await page.wait_for_timeout(500)
+
+    # Click submit
+    submit_selectors = [
+        'button[type="submit"]',
+        'input[type="submit"]',
+        'button:has-text("Log In")',
+        'button:has-text("Login")',
+        'button:has-text("Sign In")',
+        '[ng-click*="login" i]',
+    ]
+    clicked = False
+    for sel in submit_selectors:
+        try:
+            el = await page.query_selector(sel)
+            if el:
+                await page.click(sel)
+                clicked = True
+                print(f"  Submit clicked using selector: {sel}")
+                break
+        except Exception:
+            continue
+
+    if not clicked:
+        print("  WARNING: Could not find submit button — trying Enter key")
+        await page.keyboard.press("Enter")
+
+    # Wait for redirect after login
+    await page.wait_for_timeout(5000)
+
+    # Check login success
+    url_now  = page.url
+    content  = await page.content()
+    is_logged = (
+        "logout" in content.lower()
+        or "my activity" in content.lower()
+        or "bid-sheet" in url_now
+        or "/login" not in url_now
+    )
+
+    if is_logged:
+        print(f"  Login successful! Current URL: {url_now}")
+    else:
+        print(f"  WARNING: Login may have failed. Current URL: {url_now}")
+        # Save login page debug snapshot
+        with open("login_debug.html", "w", encoding="utf-8") as f:
+            f.write(content)
+        print("  Saved login_debug.html for inspection")
+
+    return is_logged
 
 
-# ── Fallback: intercept AuctionMobility API responses ─────────────────────────
-async def scrape_listings_via_api(page):
-    """
-    AuctionMobility Angular apps load data from a JSON API.
-    We intercept those network responses during page load.
-    """
-    auctions  = []
-    api_data  = []
+# ── Intercept API responses ────────────────────────────────────────────────────
+async def scrape_listings(page):
+    print("  Setting up API interception...")
+    api_data = []
 
     async def handle_response(response):
-        if "/api/" in response.url and response.status == 200:
-            try:
+        try:
+            url = response.url
+            # Catch any JSON response from the site
+            if response.status == 200 and (
+                "/api/" in url or
+                "lots" in url or
+                "foreclos" in url or
+                "auction" in url
+            ):
                 ct = response.headers.get("content-type", "")
                 if "json" in ct:
                     data = await response.json()
-                    api_data.append(data)
-            except Exception:
-                pass
+                    print(f"    API hit: {url[:80]}")
+                    api_data.append({"url": url, "data": data})
+        except Exception:
+            pass
 
     page.on("response", handle_response)
-    await page.goto(FORECLOSURES_URL, wait_until="networkidle", timeout=30000)
-    await page.wait_for_timeout(3000)
+
+    print("  Loading foreclosures page...")
+    await page.goto(FORECLOSURES_URL, wait_until="domcontentloaded", timeout=30000)
+    await page.wait_for_timeout(6000)  # give Angular extra time to load data
 
     print(f"  Intercepted {len(api_data)} API response(s)")
 
-    seen = set()
-    for data in api_data:
-        # AuctionMobility returns {"lots": [...]} or {"results": [...]}
+    # Parse API data
+    auctions = []
+    seen     = set()
+
+    for item in api_data:
+        data = item["data"]
         lots = []
         if isinstance(data, dict):
-            lots = data.get("lots", data.get("results", data.get("data", [])))
+            # Try all common AuctionMobility response keys
+            for key in ["lots", "results", "data", "items", "properties"]:
+                if key in data and isinstance(data[key], list):
+                    lots = data[key]
+                    break
         elif isinstance(data, list):
             lots = data
 
@@ -238,26 +214,23 @@ async def scrape_listings_via_api(page):
             if not isinstance(lot, dict):
                 continue
 
-            auction      = lot.get("auction", {})
-            detail_path  = lot.get("_detail_url", "")
-            detail_url   = BASE_URL + "/" + detail_path.lstrip("/") if detail_path else ""
+            auction     = lot.get("auction", {})
+            detail_path = lot.get("_detail_url", "")
+            detail_url  = BASE_URL + "/" + detail_path.lstrip("/") if detail_path else ""
 
-            if detail_url in seen:
+            if detail_url and detail_url in seen:
                 continue
             if detail_url:
                 seen.add(detail_url)
 
-            # Format date from timestamp if needed
-            raw_date = auction.get("time_start") or auction.get("date", "")
-            auction_date = _safe(raw_date)
-
+            raw_date     = _safe(auction.get("time_start") or auction.get("date", ""))
             auction_time = ""
-            time_m = re.search(r'\d+:\d+\s*[AP]M', auction_date, re.IGNORECASE)
-            if time_m:
-                auction_time = time_m.group(0)
+            tm = re.search(r'\d+:\d+\s*[AP]M', raw_date, re.IGNORECASE)
+            if tm:
+                auction_time = tm.group(0)
 
             auctions.append({
-                "auction_date":     auction_date,
+                "auction_date":     raw_date,
                 "property_address": _safe(lot.get("title") or lot.get("lot_location", "")),
                 "auction_time":     auction_time,
                 "auction_location": _safe(lot.get("lot_location") or auction.get("county", "")),
@@ -266,23 +239,67 @@ async def scrape_listings_via_api(page):
                 "detail_url":       detail_url,
             })
 
+    # If API interception got nothing, try DOM scraping
     if not auctions:
-        print("  No data from API interception either.")
-        print("  Saving debug snapshot to alexcooper_debug.html...")
+        print("  No API data — trying DOM scraping...")
+        auctions = await scrape_listings_dom(page)
+
+    # If still nothing, save debug snapshot
+    if not auctions:
+        print("  No listings found — saving debug snapshot...")
         content = await page.content()
         with open("alexcooper_debug.html", "w", encoding="utf-8") as f:
             f.write(content)
-        print("  Open alexcooper_debug.html to inspect the page structure.")
+        print("  Saved alexcooper_debug.html")
 
     return auctions
 
 
-# ── Scrape individual detail page ──────────────────────────────────────────────
+# ── DOM fallback scraper ───────────────────────────────────────────────────────
+async def scrape_listings_dom(page):
+    auctions = []
+    seen     = set()
+
+    # Try broad selectors to find any lot/property cards
+    cards = await page.query_selector_all(
+        'a[href*="foreclos"], a[href*="/lot/"], a[href*="/property/"], '
+        '[class*="lot"], [class*="property"], [class*="listing"], '
+        '[class*="card"], [class*="auction-item"]'
+    )
+    print(f"  DOM: found {len(cards)} candidate elements")
+
+    for card in cards:
+        try:
+            text = (await card.inner_text()).strip()
+            href = await card.get_attribute("href") or ""
+            if not text or len(text) < 5:
+                continue
+
+            detail_url = BASE_URL + href if href.startswith("/") else href
+            if detail_url in seen:
+                continue
+            seen.add(detail_url)
+
+            auctions.append({
+                "auction_date":     "",
+                "property_address": text[:100],
+                "auction_time":     "",
+                "auction_location": "",
+                "bid_deposit":      "",
+                "opening_bid":      "",
+                "detail_url":       detail_url,
+            })
+        except Exception:
+            continue
+
+    return auctions
+
+
+# ── Scrape detail page ─────────────────────────────────────────────────────────
 async def scrape_detail(page, url):
-    """Visit a foreclosure detail page and extract trustee / balance info."""
     try:
-        await page.goto(url, wait_until="networkidle", timeout=25000)
-        await page.wait_for_timeout(1000)
+        await page.goto(url, wait_until="domcontentloaded", timeout=25000)
+        await page.wait_for_timeout(2000)
         text = await page.inner_text("body")
 
         # Principal balance
@@ -297,8 +314,8 @@ async def scrape_detail(page, url):
                 principal = "$" + m.group(1)
                 break
 
-        # Phone number (last one = firm contact)
-        phone = ""
+        # Phone
+        phone  = ""
         phones = re.findall(r'\(?\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}', text)
         if phones:
             phone = phones[-1].strip()
@@ -321,11 +338,7 @@ async def scrape_detail(page, url):
 
     except Exception as e:
         print(f"    Warning: detail page error — {e}")
-        return {
-            "principal_balance":  "",
-            "substitute_trustee": "",
-            "trustee_phone":      "",
-        }
+        return {"principal_balance": "", "substitute_trustee": "", "trustee_phone": ""}
 
 
 # ── Helper ─────────────────────────────────────────────────────────────────────
@@ -333,12 +346,8 @@ def _safe(val):
     return "" if val is None else str(val).strip()
 
 
-# ── Save JSON ──────────────────────────────────────────────────────────────────
+# ── Save JSON (always saves, even if empty) ────────────────────────────────────
 def save_json(auctions):
-    if not auctions:
-        print("\n  No auction data to save.")
-        return
-
     records = [{
         "auction_date":       a.get("auction_date", ""),
         "property_address":   a.get("property_address", ""),
@@ -367,7 +376,7 @@ def save_json(auctions):
 # ── Upload to GitHub ───────────────────────────────────────────────────────────
 def upload_to_github(json_path):
     if not GITHUB_TOKEN:
-        print("\n  GitHub upload skipped — GITHUB_TOKEN not set in .env")
+        print("\n  GitHub upload skipped — GITHUB_TOKEN not set")
         return
 
     print("\n  Uploading JSON to GitHub...")
@@ -383,8 +392,7 @@ def upload_to_github(json_path):
     with open(json_path, "rb") as f:
         encoded = base64.b64encode(f.read()).decode("utf-8")
 
-    # Fetch existing SHA (needed to update an existing file)
-    sha = None
+    sha   = None
     check = requests.get(api_url, headers=headers)
     if check.status_code == 200:
         sha = check.json().get("sha")
@@ -408,10 +416,8 @@ def upload_to_github(json_path):
 # ── Main ───────────────────────────────────────────────────────────────────────
 async def main():
     if not AC_EMAIL or not AC_PASSWORD:
-        print("\n  ERROR: AC_EMAIL and AC_PASSWORD must be set in your .env file.")
-        print("  Create a .env file alongside this script with:")
-        print("    AC_EMAIL=your@email.com")
-        print("    AC_PASSWORD=yourpassword")
+        print("\n  ERROR: AC_EMAIL and AC_PASSWORD not found.")
+        print("  Add them as GitHub Secrets or in a local .env file.")
         sys.exit(1)
 
     async with async_playwright() as p:
@@ -420,39 +426,34 @@ async def main():
         page    = await context.new_page()
 
         # 1. Login
-        logged_in = await login(page)
-        if not logged_in:
-            print("  Proceeding anyway — detail data may be limited.")
+        await login(page)
 
         # 2. Scrape listings
         print("\n  Scraping foreclosure listings...")
         auctions = await scrape_listings(page)
         print(f"  Found {len(auctions)} listings")
 
-        if not auctions:
-            await browser.close()
-            return
-
-        # 3. Scrape detail pages
-        print(f"\n  Fetching details for {len(auctions)} listings...\n")
-        for i, auction in enumerate(auctions):
-            url  = auction.get("detail_url", "")
-            addr = auction.get("property_address", "")[:45]
-            print(f"    [{i+1}/{len(auctions)}] {addr}...")
-            if url:
-                details = await scrape_detail(page, url)
-                auction.update(details)
-            else:
-                auction.update({
-                    "principal_balance":  "",
-                    "substitute_trustee": "",
-                    "trustee_phone":      "",
-                })
-            await asyncio.sleep(0.5)
+        # 3. Scrape detail pages (only if listings found)
+        if auctions:
+            print(f"\n  Fetching details for {len(auctions)} listings...\n")
+            for i, auction in enumerate(auctions):
+                url  = auction.get("detail_url", "")
+                addr = auction.get("property_address", "")[:45]
+                print(f"    [{i+1}/{len(auctions)}] {addr}...")
+                if url:
+                    details = await scrape_detail(page, url)
+                    auction.update(details)
+                else:
+                    auction.update({
+                        "principal_balance":  "",
+                        "substitute_trustee": "",
+                        "trustee_phone":      "",
+                    })
+                await asyncio.sleep(0.5)
 
         await browser.close()
 
-    # 4. Save + upload
+    # 4. Always save JSON (even if empty, so workflow doesn't crash)
     save_json(auctions)
     upload_to_github(OUTPUT_JSON)
 
