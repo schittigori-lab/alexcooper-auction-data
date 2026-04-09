@@ -37,10 +37,10 @@ jobs:
           GITHUB_REPO: alexcooper-auction-data
         run: python alexcooper_scraper.py
 
-      - name: Commit and push JSON output
+      - name: Commit and push output
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add alexcooper_auctions.json
+          git add alexcooper_auctions.json alexcooper_debug.html || true
           git diff --cached --quiet || git commit -m "Foreclosure update $(date +%Y-%m-%d)"
           git push

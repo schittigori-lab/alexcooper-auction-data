@@ -167,19 +167,17 @@ async def login(page):
 async def scrape_listings(page):
     print("  Setting up API interception...")
     api_data = []
+    all_json_urls = []  # log every JSON url we see for debugging
 
     async def handle_response(response):
         try:
             url = response.url
             ct  = response.headers.get("content-type", "")
-            # Capture ALL json responses from the alex cooper domain
-            if response.status == 200 and "json" in ct and (
-                "alexcooper" in url or
-                "auctionmobility" in url or
-                "auctionatlas" in url
-            ):
+            if response.status == 200 and "json" in ct:
+                all_json_urls.append(url)
+                # Broad capture: any JSON response (so we don't miss the listings endpoint)
                 data = await response.json()
-                print(f"    API hit: {url[:80]}")
+                print(f"    JSON hit: {url[:100]}")
                 api_data.append({"url": url, "data": data})
         except Exception:
             pass
@@ -187,10 +185,16 @@ async def scrape_listings(page):
     page.on("response", handle_response)
 
     print("  Loading foreclosures page...")
-    await page.goto(FORECLOSURES_URL, wait_until="domcontentloaded", timeout=30000)
-    await page.wait_for_timeout(8000)  # give Angular extra time to load data
+    await page.goto(FORECLOSURES_URL, wait_until="networkidle", timeout=45000)
+    # Extra wait for Angular lazy-load after networkidle
+    await page.wait_for_timeout(5000)
 
-    print(f"  Intercepted {len(api_data)} API response(s)")
+    # Scroll to bottom to trigger lazy-loaded content, then wait again
+    await page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
+    await page.wait_for_timeout(5000)
+
+    print(f"  Intercepted {len(api_data)} JSON response(s)")
+    print(f"  All JSON URLs seen: {all_json_urls[:20]}")
 
     # Parse API data
     auctions = []
@@ -242,13 +246,13 @@ async def scrape_listings(page):
         print("  No API data — trying DOM scraping...")
         auctions = await scrape_listings_dom(page)
 
-    # If still nothing, save debug snapshot
+    # Always save debug snapshot so we can inspect what the page looks like
+    content = await page.content()
+    with open("alexcooper_debug.html", "w", encoding="utf-8") as f:
+        f.write(content)
+    print("  Saved alexcooper_debug.html")
     if not auctions:
-        print("  No listings found — saving debug snapshot...")
-        content = await page.content()
-        with open("alexcooper_debug.html", "w", encoding="utf-8") as f:
-            f.write(content)
-        print("  Saved alexcooper_debug.html")
+        print("  No listings found — check alexcooper_debug.html and workflow logs")
 
     return auctions
 
