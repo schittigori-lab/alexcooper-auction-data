@@ -3,7 +3,7 @@ name: Alex Cooper Foreclosure Scraper
 on:
   schedule:
     # Daily at 6am Eastern (10:00 UTC)
-    - cron: '0 10 * * *'
+    - cron: '0 12-21 * * 1-5'  # Every hour Mon-Fri 8am-5pm Eastern (12:00-21:00 UTC, EDT)
   workflow_dispatch:  # allow manual trigger
 
 permissions:
