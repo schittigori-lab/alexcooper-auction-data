@@ -331,9 +331,6 @@ async def scrape_listings_dom(page):
             item['location'] = last_location
 
     for item in raw:
-        if item.get('cancelled'):
-            continue  # skip cancelled listings
-
         title = item.get('title', '')
         if not title:
             continue
@@ -347,16 +344,17 @@ async def scrape_listings_dom(page):
         deposit = f'${dep_m.group(1)}' if dep_m else ''
         address = remaining[:dep_m.start()].strip() if dep_m else remaining.strip()
 
-        status_note = ' [POSTPONED]' if item.get('postponed') else ''
+        status = 'cancelled' if item.get('cancelled') else 'postponed' if item.get('postponed') else 'active'
 
         auctions.append({
             'auction_date':     item.get('date', ''),
-            'property_address': address + status_note,
+            'property_address': address,
             'auction_time':     auction_time,
             'auction_location': item.get('location', ''),
             'bid_deposit':      deposit,
             'opening_bid':      '',
             'detail_url':       item.get('detailUrl', ''),
+            'status':           status,
         })
 
     return auctions
@@ -426,6 +424,7 @@ def save_json(auctions):
         "substitute_trustee": a.get("substitute_trustee", ""),
         "trustee_phone":      a.get("trustee_phone", ""),
         "detail_url":         a.get("detail_url", ""),
+        "status":             a.get("status", "active"),
     } for a in auctions]
 
     output = {
