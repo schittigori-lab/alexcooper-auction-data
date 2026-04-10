@@ -332,7 +332,8 @@ async def scrape_listings_dom(page):
         if item.get('location'):
             last_location = item['location']
         else:
-            item['location'] = last_location
+            # Use forward-propagated location, or backward-looked-ahead _loc if not available yet
+            item['location'] = last_location or item.get('_loc', '')
 
     for item in raw:
         title = item.get('title', '')
