@@ -4,62 +4,6 @@
   "auctions": [
     {
       "auction_date": "",
-      "property_address": "5902 Jarvis Lane, Bethesda, 20814",
-      "auction_time": "1:46 PM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Montgomery County, at the Court House Door, 50 Maryland Ave., Rockville, MD 20850",
-      "bid_deposit": "$10,000",
-      "opening_bid": "",
-      "principal_balance": "",
-      "substitute_trustee": "",
-      "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/134659",
-      "status": "active",
-      "county": "Montgomery County"
-    },
-    {
-      "auction_date": "April 10, 2026",
-      "property_address": "14916 Dinsdale Drive, Silver Spring, 20906",
-      "auction_time": "1:51 PM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Montgomery County, at the Court House Door, 50 Maryland Ave., Rockville, MD 20850",
-      "bid_deposit": "$14,000",
-      "opening_bid": "",
-      "principal_balance": "",
-      "substitute_trustee": "",
-      "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/135159",
-      "status": "cancelled",
-      "county": "Montgomery County"
-    },
-    {
-      "auction_date": "April 10, 2026",
-      "property_address": "4 Monroe Street, Unit #1305, Rockville, 20850",
-      "auction_time": "1:55 PM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Montgomery County, at the Court House Door, 50 Maryland Ave., Rockville, MD 20850",
-      "bid_deposit": "$12,000",
-      "opening_bid": "",
-      "principal_balance": "",
-      "substitute_trustee": "",
-      "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/135559",
-      "status": "cancelled",
-      "county": "Montgomery County"
-    },
-    {
-      "auction_date": "April 10, 2026",
-      "property_address": "2840 Blue Spruce Lane, Silver Spring, 20906",
-      "auction_time": "2:00 PM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Montgomery County, at the Court House Door, 50 Maryland Ave., Rockville, MD 20850",
-      "bid_deposit": "$15,000",
-      "opening_bid": "",
-      "principal_balance": "",
-      "substitute_trustee": "",
-      "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/140059",
-      "status": "cancelled",
-      "county": "Montgomery County"
-    },
-    {
-      "auction_date": "April 10, 2026",
       "property_address": "7994 Stone Haven Drive, Glen Burnie, 21060",
       "auction_time": "9:15 AM",
       "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Anne Arundel County, at the Court House Door, 8 Church Circle, Annapolis, MD 21401",
@@ -223,7 +167,7 @@
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/110059",
-      "status": "active",
+      "status": "cancelled",
       "county": "Prince George's County"
     },
     {
@@ -1007,7 +951,7 @@
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/104059",
-      "status": "active",
+      "status": "cancelled",
       "county": "Prince George's County"
     },
     {
@@ -1392,7 +1336,7 @@
       "auction_date": "April 23, 2026",
       "property_address": "2118 North Fulton Avenue, Baltimore, 21217",
       "auction_time": "9:37 AM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Baltimore City, at the Clarence M. Mitchell Court House, 100 North Calvert Street, Court House Door, Calvert Street entrance, Baltimore, MD 21202",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Montgomery County, at the Court House Door, 50 Maryland Ave., Rockville, MD 20850",
       "bid_deposit": "$17,000",
       "opening_bid": "",
       "principal_balance": "",
@@ -1400,6 +1344,62 @@
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/93759",
       "status": "active",
+      "county": "Baltimore City"
+    },
+    {
+      "auction_date": "April 23, 2026",
+      "property_address": "2530 North Ellamont Street, Baltimore, 21216",
+      "auction_time": "9:39 AM",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Montgomery County, at the Court House Door, 50 Maryland Ave., Rockville, MD 20850",
+      "bid_deposit": "$17,000",
+      "opening_bid": "",
+      "principal_balance": "",
+      "substitute_trustee": "",
+      "trustee_phone": "(410) 828-4838",
+      "detail_url": "https://realestate.alexcooper.com/lots/93959",
+      "status": "active",
+      "county": "Baltimore City"
+    },
+    {
+      "auction_date": "April 23, 2026",
+      "property_address": "3434 Park Heights Avenue, Baltimore, 21215",
+      "auction_time": "9:41 AM",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Montgomery County, at the Court House Door, 50 Maryland Ave., Rockville, MD 20850",
+      "bid_deposit": "$14,000",
+      "opening_bid": "",
+      "principal_balance": "",
+      "substitute_trustee": "",
+      "trustee_phone": "(410) 828-4838",
+      "detail_url": "https://realestate.alexcooper.com/lots/94159",
+      "status": "active",
+      "county": "Baltimore City"
+    },
+    {
+      "auction_date": "April 23, 2026",
+      "property_address": "2118 Druid Hill Avenue, Baltimore, 21217",
+      "auction_time": "9:46 AM",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Montgomery County, at the Court House Door, 50 Maryland Ave., Rockville, MD 20850",
+      "bid_deposit": "$21,000",
+      "opening_bid": "",
+      "principal_balance": "",
+      "substitute_trustee": "",
+      "trustee_phone": "(410) 828-4838",
+      "detail_url": "https://realestate.alexcooper.com/lots/94659",
+      "status": "active",
+      "county": "Baltimore City"
+    },
+    {
+      "auction_date": "April 23, 2026",
+      "property_address": "810 Murphy Lane, Baltimore, 21201",
+      "auction_time": "9:50 AM",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Baltimore City, at the Clarence M. Mitchell Court House, 100 North Calvert Street, Court House Door, Calvert Street entrance, Baltimore, MD 21202",
+      "bid_deposit": "$6,000",
+      "opening_bid": "",
+      "principal_balance": "",
+      "substitute_trustee": "",
+      "trustee_phone": "(410) 828-4838",
+      "detail_url": "https://realestate.alexcooper.com/lots/95059",
+      "status": "cancelled",
       "county": "Baltimore City"
     }
   ]
