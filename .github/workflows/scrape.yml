@@ -44,7 +44,7 @@ jobs:
           mkdir -p archive
           cp alexcooper_auctions.json archive/$(date +%Y-%m-%d).json
           find archive -name "*.json" -mtime +30 -delete
-          git add alexcooper_auctions.json alexcooper_debug.html archive/
+          git add alexcooper_auctions.json alexcooper_debug.html archive/$(date +%Y-%m-%d).json
           git diff --cached --quiet || git commit -m "Foreclosure update $(date +%Y-%m-%d)"
           git pull --rebase origin main
           git push
