@@ -1,7 +1,46 @@
 {
-  "last_updated": "2026-04-09",
-  "total_auctions": 87,
+  "last_updated": "2026-04-10",
+  "total_auctions": 100,
   "auctions": [
+    {
+      "auction_date": "",
+      "property_address": "6683 Coldstream Drive, New Market, 21774",
+      "auction_time": "10:50 AM",
+      "auction_location": "",
+      "bid_deposit": "$40,000",
+      "opening_bid": "",
+      "principal_balance": "",
+      "substitute_trustee": "",
+      "trustee_phone": "(410) 828-4838",
+      "detail_url": "https://realestate.alexcooper.com/lots/105059",
+      "status": "cancelled"
+    },
+    {
+      "auction_date": "April 10, 2026",
+      "property_address": "6737 Sandpiper Court, Frederick, 21703",
+      "auction_time": "10:55 AM",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Frederick County, at the Court House Door, 100 W. Patrick St., Frederick, MD 21701",
+      "bid_deposit": "$10,000",
+      "opening_bid": "",
+      "principal_balance": "",
+      "substitute_trustee": "",
+      "trustee_phone": "(410) 828-4838",
+      "detail_url": "https://realestate.alexcooper.com/lots/105559",
+      "status": "cancelled"
+    },
+    {
+      "auction_date": "April 10, 2026",
+      "property_address": "8220 Academy Road, Ellicott City, 21043",
+      "auction_time": "9:30 AM",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Howard County, at the Court House Door, 9250 Judicial Way, Ellicott City, MD 21043",
+      "bid_deposit": "$23,000",
+      "opening_bid": "",
+      "principal_balance": "",
+      "substitute_trustee": "",
+      "trustee_phone": "(410) 828-4838",
+      "detail_url": "https://realestate.alexcooper.com/lots/93059",
+      "status": "cancelled"
+    },
     {
       "auction_date": "April 10, 2026",
       "property_address": "5902 Jarvis Lane, Bethesda, 20814",
@@ -12,7 +51,8 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/134659"
+      "detail_url": "https://realestate.alexcooper.com/lots/134659",
+      "status": "active"
     },
     {
       "auction_date": "April 10, 2026",
@@ -24,7 +64,34 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/135159"
+      "detail_url": "https://realestate.alexcooper.com/lots/135159",
+      "status": "active"
+    },
+    {
+      "auction_date": "April 10, 2026",
+      "property_address": "4 Monroe Street, Unit #1305, Rockville, 20850",
+      "auction_time": "1:55 PM",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Howard County, at the Court House Door, 9250 Judicial Way, Ellicott City, MD 21043",
+      "bid_deposit": "$12,000",
+      "opening_bid": "",
+      "principal_balance": "",
+      "substitute_trustee": "",
+      "trustee_phone": "(410) 828-4838",
+      "detail_url": "https://realestate.alexcooper.com/lots/135559",
+      "status": "cancelled"
+    },
+    {
+      "auction_date": "April 10, 2026",
+      "property_address": "2840 Blue Spruce Lane, Silver Spring, 20906",
+      "auction_time": "2:00 PM",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Montgomery County, at the Court House Door, 50 Maryland Ave., Rockville, MD 20850",
+      "bid_deposit": "$15,000",
+      "opening_bid": "",
+      "principal_balance": "",
+      "substitute_trustee": "",
+      "trustee_phone": "(410) 828-4838",
+      "detail_url": "https://realestate.alexcooper.com/lots/140059",
+      "status": "cancelled"
     },
     {
       "auction_date": "April 10, 2026",
@@ -36,7 +103,8 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/121059"
+      "detail_url": "https://realestate.alexcooper.com/lots/121059",
+      "status": "active"
     },
     {
       "auction_date": "April 10, 2026",
@@ -48,7 +116,8 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/91559"
+      "detail_url": "https://realestate.alexcooper.com/lots/91559",
+      "status": "active"
     },
     {
       "auction_date": "April 14, 2026",
@@ -60,7 +129,8 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/141559"
+      "detail_url": "https://realestate.alexcooper.com/lots/141559",
+      "status": "active"
     },
     {
       "auction_date": "April 14, 2026",
@@ -72,7 +142,21 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/142059"
+      "detail_url": "https://realestate.alexcooper.com/lots/142059",
+      "status": "active"
+    },
+    {
+      "auction_date": "April 14, 2026",
+      "property_address": "2515 Fernwood Court, Waldorf, 20601",
+      "auction_time": "1:00 PM",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Charles County, 200 Charles St., La Plata, MD 20646, (Sale will be held in the breezeway between the Circuit Court and the District Court)",
+      "bid_deposit": "$18,000",
+      "opening_bid": "",
+      "principal_balance": "",
+      "substitute_trustee": "",
+      "trustee_phone": "(410) 828-4838",
+      "detail_url": "https://realestate.alexcooper.com/lots/130059",
+      "status": "cancelled"
     },
     {
       "auction_date": "April 14, 2026",
@@ -84,7 +168,21 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/103059"
+      "detail_url": "https://realestate.alexcooper.com/lots/103059",
+      "status": "active"
+    },
+    {
+      "auction_date": "April 14, 2026",
+      "property_address": "1916 Dana Drive, Hyattsville, 20783",
+      "auction_time": "10:40 AM",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Charles County, 200 Charles St., La Plata, MD 20646, (Sale will be held in the breezeway between the Circuit Court and the District Court)",
+      "bid_deposit": "$16,000",
+      "opening_bid": "",
+      "principal_balance": "",
+      "substitute_trustee": "",
+      "trustee_phone": "(410) 828-4838",
+      "detail_url": "https://realestate.alexcooper.com/lots/104059",
+      "status": "cancelled"
     },
     {
       "auction_date": "April 14, 2026",
@@ -96,7 +194,8 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/104559"
+      "detail_url": "https://realestate.alexcooper.com/lots/104559",
+      "status": "active"
     },
     {
       "auction_date": "April 14, 2026",
@@ -108,7 +207,8 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/104759"
+      "detail_url": "https://realestate.alexcooper.com/lots/104759",
+      "status": "active"
     },
     {
       "auction_date": "April 14, 2026",
@@ -120,7 +220,8 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/105259"
+      "detail_url": "https://realestate.alexcooper.com/lots/105259",
+      "status": "active"
     },
     {
       "auction_date": "April 14, 2026",
@@ -132,7 +233,8 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/105459"
+      "detail_url": "https://realestate.alexcooper.com/lots/105459",
+      "status": "active"
     },
     {
       "auction_date": "April 14, 2026",
@@ -144,7 +246,8 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/105859"
+      "detail_url": "https://realestate.alexcooper.com/lots/105859",
+      "status": "active"
     },
     {
       "auction_date": "April 14, 2026",
@@ -156,7 +259,8 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/110059"
+      "detail_url": "https://realestate.alexcooper.com/lots/110059",
+      "status": "active"
     },
     {
       "auction_date": "April 14, 2026",
@@ -168,7 +272,8 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/110259"
+      "detail_url": "https://realestate.alexcooper.com/lots/110259",
+      "status": "active"
     },
     {
       "auction_date": "April 14, 2026",
@@ -180,7 +285,8 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/110459"
+      "detail_url": "https://realestate.alexcooper.com/lots/110459",
+      "status": "active"
     },
     {
       "auction_date": "April 14, 2026",
@@ -192,7 +298,8 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/110659"
+      "detail_url": "https://realestate.alexcooper.com/lots/110659",
+      "status": "active"
     },
     {
       "auction_date": "April 14, 2026",
@@ -204,7 +311,8 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/110859"
+      "detail_url": "https://realestate.alexcooper.com/lots/110859",
+      "status": "active"
     },
     {
       "auction_date": "April 14, 2026",
@@ -216,7 +324,8 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/111059"
+      "detail_url": "https://realestate.alexcooper.com/lots/111059",
+      "status": "active"
     },
     {
       "auction_date": "April 14, 2026",
@@ -228,7 +337,34 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/111459"
+      "detail_url": "https://realestate.alexcooper.com/lots/111459",
+      "status": "active"
+    },
+    {
+      "auction_date": "April 14, 2026",
+      "property_address": "704 Reynolds Drive, Stevensville, 21666",
+      "auction_time": "10:00 AM",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Prince George's County, 14735 Main St., Upper Marlboro, MD, 20772 (Duval Wing entrance, located on Main St.)",
+      "bid_deposit": "$40,000",
+      "opening_bid": "",
+      "principal_balance": "",
+      "substitute_trustee": "",
+      "trustee_phone": "(410) 828-4838",
+      "detail_url": "https://realestate.alexcooper.com/lots/100059",
+      "status": "cancelled"
+    },
+    {
+      "auction_date": "April 14, 2026",
+      "property_address": "507 Teal Court, Chester, 21619",
+      "auction_time": "10:05 AM",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Queen Anne's County, at the Court House Door, 200 N. Commerce Street, Centreville, MD 21617",
+      "bid_deposit": "$25,000",
+      "opening_bid": "",
+      "principal_balance": "",
+      "substitute_trustee": "",
+      "trustee_phone": "(410) 828-4838",
+      "detail_url": "https://realestate.alexcooper.com/lots/100559",
+      "status": "cancelled"
     },
     {
       "auction_date": "April 14, 2026",
@@ -240,7 +376,8 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/153059"
+      "detail_url": "https://realestate.alexcooper.com/lots/153059",
+      "status": "active"
     },
     {
       "auction_date": "April 14, 2026",
@@ -252,7 +389,8 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/140059"
+      "detail_url": "https://realestate.alexcooper.com/lots/140059",
+      "status": "active"
     },
     {
       "auction_date": "April 14, 2026",
@@ -264,7 +402,8 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/113059"
+      "detail_url": "https://realestate.alexcooper.com/lots/113059",
+      "status": "active"
     },
     {
       "auction_date": "April 15, 2026",
@@ -276,7 +415,8 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/92059"
+      "detail_url": "https://realestate.alexcooper.com/lots/92059",
+      "status": "active"
     },
     {
       "auction_date": "April 16, 2026",
@@ -288,7 +428,8 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/92459"
+      "detail_url": "https://realestate.alexcooper.com/lots/92459",
+      "status": "active"
     },
     {
       "auction_date": "April 16, 2026",
@@ -300,7 +441,8 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/92959"
+      "detail_url": "https://realestate.alexcooper.com/lots/92959",
+      "status": "active"
     },
     {
       "auction_date": "April 16, 2026",
@@ -312,7 +454,8 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/93159"
+      "detail_url": "https://realestate.alexcooper.com/lots/93159",
+      "status": "active"
     },
     {
       "auction_date": "April 16, 2026",
@@ -324,7 +467,8 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/93659"
+      "detail_url": "https://realestate.alexcooper.com/lots/93659",
+      "status": "active"
     },
     {
       "auction_date": "April 16, 2026",
@@ -336,7 +480,8 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/93859"
+      "detail_url": "https://realestate.alexcooper.com/lots/93859",
+      "status": "active"
     },
     {
       "auction_date": "April 16, 2026",
@@ -348,7 +493,8 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/94359"
+      "detail_url": "https://realestate.alexcooper.com/lots/94359",
+      "status": "active"
     },
     {
       "auction_date": "April 16, 2026",
@@ -360,7 +506,8 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/94559"
+      "detail_url": "https://realestate.alexcooper.com/lots/94559",
+      "status": "active"
     },
     {
       "auction_date": "April 16, 2026",
@@ -372,7 +519,8 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/94959"
+      "detail_url": "https://realestate.alexcooper.com/lots/94959",
+      "status": "active"
     },
     {
       "auction_date": "April 16, 2026",
@@ -384,7 +532,8 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/95159"
+      "detail_url": "https://realestate.alexcooper.com/lots/95159",
+      "status": "active"
     },
     {
       "auction_date": "April 16, 2026",
@@ -396,7 +545,21 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/95359"
+      "detail_url": "https://realestate.alexcooper.com/lots/95359",
+      "status": "active"
+    },
+    {
+      "auction_date": "April 16, 2026",
+      "property_address": "1410 North Bond Street, Baltimore, 21213",
+      "auction_time": "9:55 AM",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Allegany County, at the Court House Door, 30 Washington St., Cumberland, MD 21502",
+      "bid_deposit": "$18,000",
+      "opening_bid": "",
+      "principal_balance": "",
+      "substitute_trustee": "",
+      "trustee_phone": "(410) 828-4838",
+      "detail_url": "https://realestate.alexcooper.com/lots/95559",
+      "status": "cancelled"
     },
     {
       "auction_date": "April 16, 2026",
@@ -408,7 +571,8 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/100059"
+      "detail_url": "https://realestate.alexcooper.com/lots/100059",
+      "status": "active"
     },
     {
       "auction_date": "April 16, 2026",
@@ -420,7 +584,21 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/120059"
+      "detail_url": "https://realestate.alexcooper.com/lots/120059",
+      "status": "active"
+    },
+    {
+      "auction_date": "April 16, 2026",
+      "property_address": "7503 Ashton Valley Way, Catonsville, 21228",
+      "auction_time": "12:05 PM",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Baltimore City, at the Clarence M. Mitchell Court House, 100 North Calvert Street, Court House Door, Calvert Street entrance, Baltimore, MD 21202",
+      "bid_deposit": "$21,000",
+      "opening_bid": "",
+      "principal_balance": "",
+      "substitute_trustee": "",
+      "trustee_phone": "(410) 828-4838",
+      "detail_url": "https://realestate.alexcooper.com/lots/120559",
+      "status": "cancelled"
     },
     {
       "auction_date": "April 16, 2026",
@@ -432,7 +610,8 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/120759"
+      "detail_url": "https://realestate.alexcooper.com/lots/120759",
+      "status": "active"
     },
     {
       "auction_date": "April 16, 2026",
@@ -444,7 +623,8 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/120959"
+      "detail_url": "https://realestate.alexcooper.com/lots/120959",
+      "status": "active"
     },
     {
       "auction_date": "April 16, 2026",
@@ -456,7 +636,8 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/121459"
+      "detail_url": "https://realestate.alexcooper.com/lots/121459",
+      "status": "active"
     },
     {
       "auction_date": "April 16, 2026",
@@ -468,7 +649,8 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/121959"
+      "detail_url": "https://realestate.alexcooper.com/lots/121959",
+      "status": "active"
     },
     {
       "auction_date": "April 16, 2026",
@@ -480,7 +662,21 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/122159"
+      "detail_url": "https://realestate.alexcooper.com/lots/122159",
+      "status": "active"
+    },
+    {
+      "auction_date": "April 16, 2026",
+      "property_address": "9639 Julia Lane, Owings Mills, 21117",
+      "auction_time": "12:23 PM",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Baltimore City, at the Clarence M. Mitchell Court House, 100 North Calvert Street, Court House Door, Calvert Street entrance, Baltimore, MD 21202",
+      "bid_deposit": "$41,000",
+      "opening_bid": "",
+      "principal_balance": "",
+      "substitute_trustee": "",
+      "trustee_phone": "(410) 828-4838",
+      "detail_url": "https://realestate.alexcooper.com/lots/122359",
+      "status": "cancelled"
     },
     {
       "auction_date": "April 16, 2026",
@@ -492,7 +688,8 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/122559"
+      "detail_url": "https://realestate.alexcooper.com/lots/122559",
+      "status": "active"
     },
     {
       "auction_date": "April 16, 2026",
@@ -504,7 +701,8 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/122759"
+      "detail_url": "https://realestate.alexcooper.com/lots/122759",
+      "status": "active"
     },
     {
       "auction_date": "April 16, 2026",
@@ -516,7 +714,8 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/122959"
+      "detail_url": "https://realestate.alexcooper.com/lots/122959",
+      "status": "active"
     },
     {
       "auction_date": "April 16, 2026",
@@ -528,7 +727,8 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/123159"
+      "detail_url": "https://realestate.alexcooper.com/lots/123159",
+      "status": "active"
     },
     {
       "auction_date": "April 16, 2026",
@@ -540,7 +740,8 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/144559"
+      "detail_url": "https://realestate.alexcooper.com/lots/144559",
+      "status": "active"
     },
     {
       "auction_date": "April 16, 2026",
@@ -552,7 +753,8 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/143059"
+      "detail_url": "https://realestate.alexcooper.com/lots/143059",
+      "status": "active"
     },
     {
       "auction_date": "April 17, 2026",
@@ -564,7 +766,8 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/143259"
+      "detail_url": "https://realestate.alexcooper.com/lots/143259",
+      "status": "active"
     },
     {
       "auction_date": "April 17, 2026",
@@ -576,7 +779,8 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/124559"
+      "detail_url": "https://realestate.alexcooper.com/lots/124559",
+      "status": "active"
     },
     {
       "auction_date": "April 17, 2026",
@@ -588,7 +792,8 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/124759"
+      "detail_url": "https://realestate.alexcooper.com/lots/124759",
+      "status": "active"
     },
     {
       "auction_date": "April 17, 2026",
@@ -600,7 +805,8 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/124959"
+      "detail_url": "https://realestate.alexcooper.com/lots/124959",
+      "status": "active"
     },
     {
       "auction_date": "April 17, 2026",
@@ -612,7 +818,8 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/125159"
+      "detail_url": "https://realestate.alexcooper.com/lots/125159",
+      "status": "active"
     },
     {
       "auction_date": "April 17, 2026",
@@ -624,7 +831,8 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/91559"
+      "detail_url": "https://realestate.alexcooper.com/lots/91559",
+      "status": "active"
     },
     {
       "auction_date": "April 21, 2026",
@@ -636,7 +844,8 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/91759"
+      "detail_url": "https://realestate.alexcooper.com/lots/91759",
+      "status": "active"
     },
     {
       "auction_date": "April 21, 2026",
@@ -648,7 +857,8 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/91959"
+      "detail_url": "https://realestate.alexcooper.com/lots/91959",
+      "status": "active"
     },
     {
       "auction_date": "April 21, 2026",
@@ -660,7 +870,8 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/110059"
+      "detail_url": "https://realestate.alexcooper.com/lots/110059",
+      "status": "active"
     },
     {
       "auction_date": "April 21, 2026",
@@ -672,7 +883,8 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/140059"
+      "detail_url": "https://realestate.alexcooper.com/lots/140059",
+      "status": "active"
     },
     {
       "auction_date": "April 21, 2026",
@@ -684,7 +896,8 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/140259"
+      "detail_url": "https://realestate.alexcooper.com/lots/140259",
+      "status": "active"
     },
     {
       "auction_date": "April 21, 2026",
@@ -696,7 +909,8 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/123059"
+      "detail_url": "https://realestate.alexcooper.com/lots/123059",
+      "status": "active"
     },
     {
       "auction_date": "April 21, 2026",
@@ -708,7 +922,8 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/123559"
+      "detail_url": "https://realestate.alexcooper.com/lots/123559",
+      "status": "active"
     },
     {
       "auction_date": "April 21, 2026",
@@ -720,7 +935,21 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/124059"
+      "detail_url": "https://realestate.alexcooper.com/lots/124059",
+      "status": "active"
+    },
+    {
+      "auction_date": "April 21, 2026",
+      "property_address": "4650 Skinners Run Road, Hurlock, 21643",
+      "auction_time": "1:00 PM",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Dorchester County, at the Court House Door, 206 High St., Cambridge, MD 21613",
+      "bid_deposit": "$8,000",
+      "opening_bid": "",
+      "principal_balance": "",
+      "substitute_trustee": "",
+      "trustee_phone": "(410) 828-4838",
+      "detail_url": "https://realestate.alexcooper.com/lots/130059",
+      "status": "cancelled"
     },
     {
       "auction_date": "April 21, 2026",
@@ -732,7 +961,8 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/103059"
+      "detail_url": "https://realestate.alexcooper.com/lots/103059",
+      "status": "active"
     },
     {
       "auction_date": "April 21, 2026",
@@ -744,7 +974,8 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/103559"
+      "detail_url": "https://realestate.alexcooper.com/lots/103559",
+      "status": "active"
     },
     {
       "auction_date": "April 21, 2026",
@@ -756,7 +987,8 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/104059"
+      "detail_url": "https://realestate.alexcooper.com/lots/104059",
+      "status": "active"
     },
     {
       "auction_date": "April 21, 2026",
@@ -768,7 +1000,8 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/104259"
+      "detail_url": "https://realestate.alexcooper.com/lots/104259",
+      "status": "active"
     },
     {
       "auction_date": "April 21, 2026",
@@ -780,7 +1013,8 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/104459"
+      "detail_url": "https://realestate.alexcooper.com/lots/104459",
+      "status": "active"
     },
     {
       "auction_date": "April 21, 2026",
@@ -792,7 +1026,8 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/104659"
+      "detail_url": "https://realestate.alexcooper.com/lots/104659",
+      "status": "active"
     },
     {
       "auction_date": "April 21, 2026",
@@ -804,7 +1039,8 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/104859"
+      "detail_url": "https://realestate.alexcooper.com/lots/104859",
+      "status": "active"
     },
     {
       "auction_date": "April 21, 2026",
@@ -816,7 +1052,8 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/105059"
+      "detail_url": "https://realestate.alexcooper.com/lots/105059",
+      "status": "active"
     },
     {
       "auction_date": "April 21, 2026",
@@ -828,7 +1065,8 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/105259"
+      "detail_url": "https://realestate.alexcooper.com/lots/105259",
+      "status": "active"
     },
     {
       "auction_date": "April 21, 2026",
@@ -840,7 +1078,8 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/140059"
+      "detail_url": "https://realestate.alexcooper.com/lots/140059",
+      "status": "active"
     },
     {
       "auction_date": "April 21, 2026",
@@ -852,7 +1091,8 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/110059"
+      "detail_url": "https://realestate.alexcooper.com/lots/110059",
+      "status": "active"
     },
     {
       "auction_date": "April 22, 2026",
@@ -864,7 +1104,8 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/113059"
+      "detail_url": "https://realestate.alexcooper.com/lots/113059",
+      "status": "active"
     },
     {
       "auction_date": "April 22, 2026",
@@ -876,7 +1117,8 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/120059"
+      "detail_url": "https://realestate.alexcooper.com/lots/120059",
+      "status": "active"
     },
     {
       "auction_date": "April 22, 2026",
@@ -888,7 +1130,8 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/123059"
+      "detail_url": "https://realestate.alexcooper.com/lots/123059",
+      "status": "active"
     },
     {
       "auction_date": "April 22, 2026",
@@ -900,7 +1143,8 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/124559"
+      "detail_url": "https://realestate.alexcooper.com/lots/124559",
+      "status": "active"
     },
     {
       "auction_date": "April 22, 2026",
@@ -912,7 +1156,8 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/125059"
+      "detail_url": "https://realestate.alexcooper.com/lots/125059",
+      "status": "active"
     },
     {
       "auction_date": "April 22, 2026",
@@ -924,7 +1169,8 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/130059"
+      "detail_url": "https://realestate.alexcooper.com/lots/130059",
+      "status": "active"
     },
     {
       "auction_date": "April 22, 2026",
@@ -936,7 +1182,8 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/131559"
+      "detail_url": "https://realestate.alexcooper.com/lots/131559",
+      "status": "active"
     },
     {
       "auction_date": "April 22, 2026",
@@ -948,7 +1195,8 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/133559"
+      "detail_url": "https://realestate.alexcooper.com/lots/133559",
+      "status": "active"
     },
     {
       "auction_date": "April 22, 2026",
@@ -960,7 +1208,8 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/134059"
+      "detail_url": "https://realestate.alexcooper.com/lots/134059",
+      "status": "active"
     },
     {
       "auction_date": "April 22, 2026",
@@ -972,7 +1221,8 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/143059"
+      "detail_url": "https://realestate.alexcooper.com/lots/143059",
+      "status": "active"
     },
     {
       "auction_date": "April 22, 2026",
@@ -984,7 +1234,8 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/143259"
+      "detail_url": "https://realestate.alexcooper.com/lots/143259",
+      "status": "active"
     },
     {
       "auction_date": "April 22, 2026",
@@ -996,7 +1247,8 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/143459"
+      "detail_url": "https://realestate.alexcooper.com/lots/143459",
+      "status": "active"
     },
     {
       "auction_date": "April 22, 2026",
@@ -1008,7 +1260,8 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/143659"
+      "detail_url": "https://realestate.alexcooper.com/lots/143659",
+      "status": "active"
     },
     {
       "auction_date": "April 22, 2026",
@@ -1020,7 +1273,8 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/143859"
+      "detail_url": "https://realestate.alexcooper.com/lots/143859",
+      "status": "active"
     },
     {
       "auction_date": "April 22, 2026",
@@ -1032,7 +1286,8 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/144059"
+      "detail_url": "https://realestate.alexcooper.com/lots/144059",
+      "status": "active"
     },
     {
       "auction_date": "April 22, 2026",
@@ -1044,7 +1299,8 @@
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/161559"
+      "detail_url": "https://realestate.alexcooper.com/lots/161559",
+      "status": "active"
     }
   ]
 }
