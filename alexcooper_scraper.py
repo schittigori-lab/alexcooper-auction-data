@@ -274,7 +274,8 @@ async def scrape_listings_dom(page):
             '.foreclosure-date-header, .alexcooper-foreclosure-container'
         );
 
-        let currentDate = '';
+        let currentDate   = '';
+        let currentCounty = '';
 
         for (const el of elements) {
             if (el.classList.contains('foreclosure-date-header')) {
@@ -296,13 +297,16 @@ async def scrape_listings_dom(page):
                 const cancelled  = lotEl && lotEl.classList.contains('cancelled');
                 const postponed  = lotEl && lotEl.classList.contains('postponed');
 
+                // County header only appears on first lot per county — track it
+                if (countyEl) currentCounty = countyEl.textContent.trim();
+
                 results.push({
                     lotId,
                     numericId,
                     date:     currentDate,
-                    county:   countyEl   ? countyEl.textContent.trim()   : '',
-                    title:    titleEl    ? titleEl.textContent.trim()     : '',
-                    location: locationEl ? locationEl.textContent.trim()  : '',
+                    county:   currentCounty,
+                    title:    titleEl    ? titleEl.textContent.trim()    : '',
+                    location: locationEl ? locationEl.textContent.trim() : '',
                     cancelled,
                     postponed,
                     detailUrl: numericId ? `${BASE}/lots/${numericId}` : '',
@@ -355,6 +359,7 @@ async def scrape_listings_dom(page):
             'opening_bid':      '',
             'detail_url':       item.get('detailUrl', ''),
             'status':           status,
+            'county':           item.get('county', ''),
         })
 
     return auctions
@@ -425,6 +430,7 @@ def save_json(auctions):
         "trustee_phone":      a.get("trustee_phone", ""),
         "detail_url":         a.get("detail_url", ""),
         "status":             a.get("status", "active"),
+        "county":             a.get("county", ""),
     } for a in auctions]
 
     output = {
