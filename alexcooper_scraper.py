@@ -23,7 +23,7 @@ import os
 import re
 import subprocess
 import sys
-from datetime import date
+from datetime import date, datetime
 
 # ── Auto-install dependencies ──────────────────────────────────────────────────
 def install(pkg):
@@ -435,7 +435,7 @@ def save_json(auctions):
     } for a in auctions]
 
     output = {
-        "last_updated":   date.today().strftime("%Y-%m-%d"),
+        "last_updated":   datetime.now().strftime("%Y-%m-%dT%H:%M:%SZ"),
         "total_auctions": len(records),
         "auctions":       records,
     }
