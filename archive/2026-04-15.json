@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-15T16:00:25Z",
+  "last_updated": "2026-04-15T20:01:21Z",
   "total_auctions": 100,
   "auctions": [
     {
@@ -13,7 +13,7 @@
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/92059",
-      "status": "active",
+      "status": "cancelled",
       "county": "Baltimore City"
     },
     {
@@ -125,7 +125,7 @@
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/94959",
-      "status": "active",
+      "status": "cancelled",
       "county": "Baltimore City"
     },
     {
@@ -139,7 +139,7 @@
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/95159",
-      "status": "active",
+      "status": "cancelled",
       "county": "Baltimore City"
     },
     {
