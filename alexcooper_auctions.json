@@ -1,26 +1,12 @@
 {
-  "last_updated": "2026-04-16T17:02:00Z",
+  "last_updated": "2026-04-16T20:11:57Z",
   "total_auctions": 100,
   "auctions": [
     {
       "auction_date": "",
-      "property_address": "103 Creswell Avenue, Elkton, 21921",
-      "auction_time": "2:45 PM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Cecil County, at the Court House Door, 129 E. Main St., Elkton, MD 21921",
-      "bid_deposit": "$9,000",
-      "opening_bid": "",
-      "principal_balance": "",
-      "substitute_trustee": "",
-      "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/144559",
-      "status": "active",
-      "county": "Cecil County"
-    },
-    {
-      "auction_date": "April 16, 2026",
       "property_address": "1400 Spencerville Road, Spencerville, 20868",
       "auction_time": "2:30 PM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Cecil County, at the Court House Door, 129 E. Main St., Elkton, MD 21921",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Montgomery County, at the Court House Door, 50 Maryland Ave., Rockville, MD 20850",
       "bid_deposit": "$23,000",
       "opening_bid": "",
       "principal_balance": "",
@@ -1392,13 +1378,27 @@
       "auction_date": "April 28, 2026",
       "property_address": "14220 Duckett Road, Brandywine, 20613",
       "auction_time": "11:39 AM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Prince George's County, 14735 Main St., Upper Marlboro, MD, 20772 (Duval Wing entrance, located on Main St.)",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Charles County, 200 Charles St., La Plata, MD 20646, (Sale will be held in the breezeway between the Circuit Court and the District Court)",
       "bid_deposit": "$41,000",
       "opening_bid": "",
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/113959",
+      "status": "active",
+      "county": "Prince George's County"
+    },
+    {
+      "auction_date": "April 28, 2026",
+      "property_address": "11508 Snowden Pond Road, Laurel, 20708",
+      "auction_time": "11:41 AM",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Prince George's County, 14735 Main St., Upper Marlboro, MD, 20772 (Duval Wing entrance, located on Main St.)",
+      "bid_deposit": "$41,000",
+      "opening_bid": "",
+      "principal_balance": "",
+      "substitute_trustee": "",
+      "trustee_phone": "(410) 828-4838",
+      "detail_url": "https://realestate.alexcooper.com/lots/114159",
       "status": "active",
       "county": "Prince George's County"
     }
