@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-20T19:51:07Z",
+  "last_updated": "2026-04-20T22:16:47Z",
   "total_auctions": 100,
   "auctions": [
     {
@@ -83,7 +83,7 @@
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/140259",
-      "status": "active",
+      "status": "cancelled",
       "county": "Calvert County"
     },
     {
@@ -279,7 +279,7 @@
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/140059",
-      "status": "active",
+      "status": "cancelled",
       "county": "Wicomico County"
     },
     {
@@ -433,7 +433,7 @@
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/143059",
-      "status": "active",
+      "status": "cancelled",
       "county": "District of Columbia"
     },
     {
