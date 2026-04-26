@@ -401,15 +401,168 @@ async def scrape_detail(page, url):
         if tm:
             trustee = tm.group(1).strip()
 
+        # Auction date fallback — parsed from detail page body text
+        # e.g. "APRIL 28, 2026 AT 9:15 AM" inside a <b> tag
+        detail_date = ""
+        date_m = re.search(
+            r'(January|February|March|April|May|June|July|August|September'
+            r'|October|November|December)\s+(\d+),?\s*(\d{4})',
+            text, re.IGNORECASE
+        )
+        if date_m:
+            detail_date = f"{date_m.group(1).capitalize()} {date_m.group(2)}, {date_m.group(3)}"
+
         return {
             "principal_balance":  principal,
             "substitute_trustee": trustee,
             "trustee_phone":      phone,
+            "detail_date":        detail_date,
         }
 
     except Exception as e:
         print(f"    Warning: detail page error — {e}")
-        return {"principal_balance": "", "substitute_trustee": "", "trustee_phone": ""}
+        return {"principal_balance": "", "substitute_trustee": "", "trustee_phone": "", "detail_date": ""}
+
+
+# ── SDAT Assessed Value Lookup (opendata.maryland.gov API) ───────────────────
+
+SDAT_API_URL    = 'https://opendata.maryland.gov/resource/ed4q-f8tm.json'
+SDAT_CACHE_FILE = 'sdat_cache.json'
+
+# Maps internal county name -> dataset's county_desc field value
+SDAT_COUNTY_MAP = {
+    'Allegany':        'ALLEGANY',
+    'Anne Arundel':    'ANNE ARUNDEL',
+    'Baltimore City':  'BALTIMORE CITY',
+    'Baltimore':       'BALTIMORE',
+    'Calvert':         'CALVERT',
+    'Caroline':        'CAROLINE',
+    'Carroll':         'CARROLL',
+    'Cecil':           'CECIL',
+    'Charles':         'CHARLES',
+    'Dorchester':      'DORCHESTER',
+    'Frederick':       'FREDERICK',
+    'Garrett':         'GARRETT',
+    'Harford':         'HARFORD',
+    'Howard':          'HOWARD',
+    'Kent':            'KENT',
+    'Montgomery':      'MONTGOMERY',
+    "Prince George's": "PRINCE GEORGE'S",
+    "Queen Anne's":    "QUEEN ANNE'S",
+    "St. Mary's":      "ST. MARY'S",
+    'Somerset':        'SOMERSET',
+    'Talbot':          'TALBOT',
+    'Washington':      'WASHINGTON',
+    'Wicomico':        'WICOMICO',
+    'Worcester':       'WORCESTER',
+}
+
+def load_sdat_cache():
+    if os.path.exists(SDAT_CACHE_FILE):
+        try:
+            with open(SDAT_CACHE_FILE, encoding='utf-8') as f:
+                return json.load(f)
+        except Exception:
+            pass
+    return {}
+
+def save_sdat_cache(cache):
+    with open(SDAT_CACHE_FILE, 'w', encoding='utf-8') as f:
+        json.dump(cache, f, indent=2, ensure_ascii=False)
+
+_SDAT_API_HEADERS = {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+    'Accept': 'application/json',
+    'Accept-Language': 'en-US,en;q=0.9',
+}
+_DIRECTIONS = {
+    'N','S','E','W','NE','NW','SE','SW',
+    'NORTH','SOUTH','EAST','WEST','NORTHEAST','NORTHWEST','SOUTHEAST','SOUTHWEST',
+}
+_SUFFIXES = {
+    'AVE','AVENUE','BLVD','BOULEVARD','CIR','CIRCLE','CT','COURT',
+    'DR','DRIVE','LN','LANE','PKWY','PARKWAY','PL','PLACE',
+    'RD','ROAD','ST','STREET','TER','TERR','TERRACE','TRL','TRAIL',
+    'WAY','HWY','HIGHWAY','RUN','PASS','PATH','LOOP','PIKE','XING','CROSSING',
+}
+
+def sdat_api_lookup(address, county_name):
+    """Query opendata.maryland.gov for property assessed value by address.
+
+    Uses num%keyword% LIKE search (avoids compound WHERE / Cloudflare issues),
+    then filters by county client-side.
+    """
+    try:
+        clean = address.split(',')[0].strip().upper()
+        parts = clean.split()
+        if not parts or not parts[0][0].isdigit():
+            return ''
+        street_num = parts[0]
+        name_words = parts[1:]
+        while name_words and name_words[0] in _DIRECTIONS:
+            name_words = name_words[1:]
+        while name_words and name_words[-1] in _SUFFIXES:
+            name_words = name_words[:-1]
+        if not name_words:
+            return ''
+        keyword = name_words[0]
+
+        resp = requests.get(
+            SDAT_API_URL,
+            headers=_SDAT_API_HEADERS,
+            params={
+                '$where': f"mdp_street_address_mdp_field_address like '{street_num}%{keyword}%'",
+                '$limit': '20',
+            },
+            timeout=15,
+        )
+        if resp.status_code != 200:
+            return ''
+        rows = resp.json()
+
+        matches = [
+            r for r in rows
+            if county_name.lower() in r.get('county_name_mdp_field_cntyname', '').lower()
+        ]
+        if not matches:
+            return ''
+
+        row = matches[0]
+        land = float(row.get('base_cycle_data_land_value_sdat_field_154') or 0)
+        imp  = float(row.get('base_cycle_data_improvements_value_sdat_field_155') or 0)
+        total = land + imp
+        return '${:,.0f}'.format(total) if total else ''
+
+    except Exception as e:
+        print(f'    SDAT API error: {e}')
+        return ''
+
+def get_sdat_value(address, county, cache):
+    """Return cached or freshly-fetched SDAT assessed value."""
+    cache_key = f'{address}|{county}'
+    entry = cache.get(cache_key)
+    if entry:
+        try:
+            age = (datetime.now() - datetime.strptime(entry['lookup_date'], '%Y-%m-%d')).days
+            if age < 90:
+                val = entry.get('full_cash_value', '')
+                print(f'    SDAT cached: {val or "not found"}')
+                return val
+        except Exception:
+            pass
+
+    if county not in SDAT_COUNTY_MAP:
+        return ''
+
+    print(f'    SDAT lookup: {address} ({county})')
+    value = sdat_api_lookup(address, county)
+    if value:
+        cache[cache_key] = {
+            'full_cash_value': value,
+            'lookup_date': datetime.now().strftime('%Y-%m-%d'),
+        }
+        save_sdat_cache(cache)
+    return value
 
 
 # ── Helper ─────────────────────────────────────────────────────────────────────
@@ -432,6 +585,7 @@ def save_json(auctions):
         "detail_url":         a.get("detail_url", ""),
         "status":             a.get("status", "active"),
         "county":             a.get("county", ""),
+        "full_cash_value":    a.get("full_cash_value", ""),
     } for a in auctions]
 
     output = {
@@ -515,6 +669,10 @@ async def main():
                 print(f"    [{i+1}/{len(auctions)}] {addr}...")
                 if url:
                     details = await scrape_detail(page, url)
+                    # Use date from detail page as fallback if listing date was empty
+                    if not auction.get("auction_date") and details.get("detail_date"):
+                        auction["auction_date"] = details["detail_date"]
+                        print(f"      Date recovered from detail page: {details['detail_date']}")
                     auction.update(details)
                 else:
                     auction.update({
@@ -525,6 +683,18 @@ async def main():
                 await asyncio.sleep(0.5)
 
         await browser.close()
+
+    # SDAT assessed value enrichment (opendata.maryland.gov API — no browser needed)
+    if auctions:
+        print(f"\n  Enriching {len(auctions)} auctions with SDAT values...")
+        sdat_cache = load_sdat_cache()
+        for auction in auctions:
+            county = auction.get('county', '')
+            if county and auction.get('property_address'):
+                auction['full_cash_value'] = get_sdat_value(
+                    auction['property_address'], county, sdat_cache)
+            else:
+                auction['full_cash_value'] = ''
 
     # 4. Always save JSON (even if empty, so workflow doesn't crash)
     save_json(auctions)
