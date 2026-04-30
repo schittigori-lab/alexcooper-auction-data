@@ -1,39 +1,9 @@
 {
-  "last_updated": "2026-04-30T17:10:56Z",
+  "last_updated": "2026-04-30T21:43:55Z",
   "total_auctions": 100,
   "auctions": [
     {
       "auction_date": "",
-      "property_address": "510 Trimble Road, Joppa, 21085",
-      "auction_time": "2:00 PM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Harford County, at the Court House Door, 20 W. Courtland St., Bel Air, MD 21014",
-      "bid_deposit": "$25,000",
-      "opening_bid": "",
-      "principal_balance": "",
-      "substitute_trustee": "",
-      "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/140059",
-      "status": "cancelled",
-      "county": "Harford County",
-      "full_cash_value": ""
-    },
-    {
-      "auction_date": "April 30, 2026",
-      "property_address": "929 North Olive Branch Court, Edgewood, 21040",
-      "auction_time": "2:02 PM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Harford County, at the Court House Door, 20 W. Courtland St., Bel Air, MD 21014",
-      "bid_deposit": "$14,000",
-      "opening_bid": "",
-      "principal_balance": "",
-      "substitute_trustee": "",
-      "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/140259",
-      "status": "active",
-      "county": "Harford County",
-      "full_cash_value": ""
-    },
-    {
-      "auction_date": "April 30, 2026",
       "property_address": "4747 Schalk Road, Unit #1, Manchester, 21102",
       "auction_time": "11:15 AM",
       "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Carroll County, at the Old Court House Door, East entrance (Willis Street), Westminster, MD 21157",
@@ -223,7 +193,7 @@
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/103059",
-      "status": "active",
+      "status": "cancelled",
       "county": "Prince George's County",
       "full_cash_value": ""
     },
@@ -585,7 +555,7 @@
       "detail_url": "https://realestate.alexcooper.com/lots/93759",
       "status": "active",
       "county": "Baltimore City",
-      "full_cash_value": "$30,000"
+      "full_cash_value": ""
     },
     {
       "auction_date": "May 07, 2026",
@@ -600,7 +570,7 @@
       "detail_url": "https://realestate.alexcooper.com/lots/93959",
       "status": "active",
       "county": "Baltimore City",
-      "full_cash_value": "$36,100"
+      "full_cash_value": ""
     },
     {
       "auction_date": "May 07, 2026",
@@ -615,7 +585,7 @@
       "detail_url": "https://realestate.alexcooper.com/lots/94159",
       "status": "active",
       "county": "Baltimore City",
-      "full_cash_value": ""
+      "full_cash_value": "$97,700"
     },
     {
       "auction_date": "May 07, 2026",
@@ -630,7 +600,7 @@
       "detail_url": "https://realestate.alexcooper.com/lots/94359",
       "status": "active",
       "county": "Baltimore City",
-      "full_cash_value": "$216,400"
+      "full_cash_value": ""
     },
     {
       "auction_date": "May 07, 2026",
@@ -675,7 +645,7 @@
       "detail_url": "https://realestate.alexcooper.com/lots/95259",
       "status": "active",
       "county": "Baltimore City",
-      "full_cash_value": "$178,300"
+      "full_cash_value": ""
     },
     {
       "auction_date": "May 07, 2026",
@@ -690,7 +660,7 @@
       "detail_url": "https://realestate.alexcooper.com/lots/95459",
       "status": "active",
       "county": "Baltimore City",
-      "full_cash_value": ""
+      "full_cash_value": "$123,800"
     },
     {
       "auction_date": "May 07, 2026",
@@ -1350,7 +1320,7 @@
       "detail_url": "https://realestate.alexcooper.com/lots/91559",
       "status": "active",
       "county": "Baltimore City",
-      "full_cash_value": ""
+      "full_cash_value": "$75,000"
     },
     {
       "auction_date": "May 14, 2026",
@@ -1365,7 +1335,7 @@
       "detail_url": "https://realestate.alexcooper.com/lots/91759",
       "status": "active",
       "county": "Baltimore City",
-      "full_cash_value": ""
+      "full_cash_value": "$123,300"
     },
     {
       "auction_date": "May 14, 2026",
@@ -1395,7 +1365,7 @@
       "detail_url": "https://realestate.alexcooper.com/lots/92459",
       "status": "active",
       "county": "Baltimore City",
-      "full_cash_value": ""
+      "full_cash_value": "$19,000"
     },
     {
       "auction_date": "May 14, 2026",
@@ -1500,7 +1470,37 @@
       "detail_url": "https://realestate.alexcooper.com/lots/94159",
       "status": "active",
       "county": "Baltimore City",
-      "full_cash_value": "$46,000"
+      "full_cash_value": ""
+    },
+    {
+      "auction_date": "May 14, 2026",
+      "property_address": "8805 Stone Ridge Circle, Unit #104, Baltimore, 21208",
+      "auction_time": "12:05 PM",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Baltimore City, at the Clarence M. Mitchell Court House, 100 North Calvert Street, Court House Door, Calvert Street entrance, Baltimore, MD 21202",
+      "bid_deposit": "$10,000",
+      "opening_bid": "",
+      "principal_balance": "",
+      "substitute_trustee": "",
+      "trustee_phone": "(410) 828-4838",
+      "detail_url": "https://realestate.alexcooper.com/lots/120559",
+      "status": "active",
+      "county": "Baltimore County",
+      "full_cash_value": ""
+    },
+    {
+      "auction_date": "May 14, 2026",
+      "property_address": "7546 Battle Grove Circle, Baltimore, 21222",
+      "auction_time": "12:10 PM",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Baltimore County, at the Court House Door, 401 Bosley Ave. (Main Entrance Facing Patriot Plaza), Towson, MD 21204",
+      "bid_deposit": "$15,000",
+      "opening_bid": "",
+      "principal_balance": "",
+      "substitute_trustee": "",
+      "trustee_phone": "(410) 828-4838",
+      "detail_url": "https://realestate.alexcooper.com/lots/121059",
+      "status": "active",
+      "county": "Baltimore County",
+      "full_cash_value": ""
     }
   ]
 }
