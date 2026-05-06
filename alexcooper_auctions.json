@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-06T17:22:48Z",
+  "last_updated": "2026-05-06T21:50:40Z",
   "total_auctions": 100,
   "auctions": [
     {
@@ -253,7 +253,7 @@
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/120759",
-      "status": "active",
+      "status": "cancelled",
       "county": "Baltimore County",
       "full_cash_value": ""
     },
@@ -268,7 +268,7 @@
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/120959",
-      "status": "active",
+      "status": "cancelled",
       "county": "Baltimore County",
       "full_cash_value": ""
     },
@@ -930,7 +930,7 @@
       "detail_url": "https://realestate.alexcooper.com/lots/93759",
       "status": "active",
       "county": "Baltimore City",
-      "full_cash_value": ""
+      "full_cash_value": "$148,800"
     },
     {
       "auction_date": "May 14, 2026",
@@ -1348,7 +1348,7 @@
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/142359",
-      "status": "active",
+      "status": "cancelled",
       "county": "Montgomery County",
       "full_cash_value": ""
     },
