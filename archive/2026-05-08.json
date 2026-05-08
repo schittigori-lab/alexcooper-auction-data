@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-08T17:17:58Z",
+  "last_updated": "2026-05-08T19:18:19Z",
   "total_auctions": 100,
   "auctions": [
     {
@@ -79,24 +79,9 @@
     },
     {
       "auction_date": "May 08, 2026",
-      "property_address": "731 Marathon Drive, Hagerstown, 21740",
-      "auction_time": "1:55 PM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Washington County, at the Court House Door, 95 W. Washington St., Hagerstown, MD 21740",
-      "bid_deposit": "$14,700",
-      "opening_bid": "",
-      "principal_balance": "",
-      "substitute_trustee": "",
-      "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/135559",
-      "status": "active",
-      "county": "Washington County",
-      "full_cash_value": ""
-    },
-    {
-      "auction_date": "May 08, 2026",
       "property_address": "2959 Rose Crown Circle, Pasadena, 21122",
       "auction_time": "9:49 AM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Washington County, at the Court House Door, 95 W. Washington St., Hagerstown, MD 21740",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Montgomery County, at the Court House Door, 50 Maryland Ave., Rockville, MD 20850",
       "bid_deposit": "$21,000",
       "opening_bid": "",
       "principal_balance": "",
@@ -111,7 +96,7 @@
       "auction_date": "May 12, 2026",
       "property_address": "1041 Cedar Ridge Court, Annapolis, 21403",
       "auction_time": "9:51 AM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Washington County, at the Court House Door, 95 W. Washington St., Hagerstown, MD 21740",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Montgomery County, at the Court House Door, 50 Maryland Ave., Rockville, MD 20850",
       "bid_deposit": "$30,000",
       "opening_bid": "",
       "principal_balance": "",
@@ -126,7 +111,7 @@
       "auction_date": "May 12, 2026",
       "property_address": "8022 Maywood Avenue, Pasadena, 21122",
       "auction_time": "9:55 AM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Washington County, at the Court House Door, 95 W. Washington St., Hagerstown, MD 21740",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Montgomery County, at the Court House Door, 50 Maryland Ave., Rockville, MD 20850",
       "bid_deposit": "$26,000",
       "opening_bid": "",
       "principal_balance": "",
@@ -868,7 +853,7 @@
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/141359",
-      "status": "active",
+      "status": "cancelled",
       "county": "Montgomery County",
       "full_cash_value": ""
     },
@@ -1491,7 +1476,7 @@
       "auction_date": "May 21, 2026",
       "property_address": "800 Walnut Avenue, Baltimore, 21229",
       "auction_time": "9:52 AM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Baltimore City, at the Clarence M. Mitchell Court House, 100 North Calvert Street, Court House Door, Calvert Street entrance, Baltimore, MD 21202",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Garrett County, auction to be held at the 317 Alder St. entrance, Oakland, MD 21550",
       "bid_deposit": "$34,000",
       "opening_bid": "",
       "principal_balance": "",
@@ -1501,6 +1486,21 @@
       "status": "active",
       "county": "Baltimore City",
       "full_cash_value": "$198,600"
+    },
+    {
+      "auction_date": "May 21, 2026",
+      "property_address": "1007 North Washington Street, Baltimore, 21205",
+      "auction_time": "9:54 AM",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Baltimore City, at the Clarence M. Mitchell Court House, 100 North Calvert Street, Court House Door, Calvert Street entrance, Baltimore, MD 21202",
+      "bid_deposit": "$19,000",
+      "opening_bid": "",
+      "principal_balance": "",
+      "substitute_trustee": "",
+      "trustee_phone": "(410) 828-4838",
+      "detail_url": "https://realestate.alexcooper.com/lots/95459",
+      "status": "active",
+      "county": "Baltimore City",
+      "full_cash_value": "$220,000"
     }
   ]
 }
