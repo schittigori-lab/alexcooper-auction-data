@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-11T19:49:03Z",
+  "last_updated": "2026-05-11T21:20:07Z",
   "total_auctions": 100,
   "auctions": [
     {
@@ -133,7 +133,7 @@
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/130059",
-      "status": "active",
+      "status": "cancelled",
       "county": "Dorchester County",
       "full_cash_value": ""
     },
