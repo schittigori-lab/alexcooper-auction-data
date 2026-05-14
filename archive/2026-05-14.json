@@ -1,42 +1,12 @@
 {
-  "last_updated": "2026-05-14T17:03:12Z",
+  "last_updated": "2026-05-14T19:00:53Z",
   "total_auctions": 100,
   "auctions": [
     {
       "auction_date": "",
-      "property_address": "1217 Valley Leaf Court, Edgewood, 21040",
-      "auction_time": "2:00 PM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Harford County, at the Court House Door, 20 W. Courtland St., Bel Air, MD 21014",
-      "bid_deposit": "$16,000",
-      "opening_bid": "",
-      "principal_balance": "",
-      "substitute_trustee": "",
-      "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/140059",
-      "status": "active",
-      "county": "Harford County",
-      "full_cash_value": ""
-    },
-    {
-      "auction_date": "May 14, 2026",
-      "property_address": "823 Clover Leaf Court, Edgewood, 21040",
-      "auction_time": "2:02 PM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Harford County, at the Court House Door, 20 W. Courtland St., Bel Air, MD 21014",
-      "bid_deposit": "$11,000",
-      "opening_bid": "",
-      "principal_balance": "",
-      "substitute_trustee": "",
-      "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/140259",
-      "status": "cancelled",
-      "county": "Harford County",
-      "full_cash_value": ""
-    },
-    {
-      "auction_date": "May 14, 2026",
       "property_address": "834 Muller Road, Westminster, 21157",
       "auction_time": "10:00 AM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Harford County, at the Court House Door, 20 W. Courtland St., Bel Air, MD 21014",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Carroll County, at the Old Court House Door, East entrance (Willis Street), Westminster, MD 21157",
       "bid_deposit": "$58,300",
       "opening_bid": "",
       "principal_balance": "",
@@ -1491,7 +1461,7 @@
       "auction_date": "May 28, 2026",
       "property_address": "3930 Clarinth Road, Baltimore, 21215",
       "auction_time": "9:32 AM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Baltimore City, at the Clarence M. Mitchell Court House, 100 North Calvert Street, Court House Door, Calvert Street entrance, Baltimore, MD 21202",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for St. Mary's County, at the Court House Door, 41605 Court House Dr., Leonardtown, MD 20650",
       "bid_deposit": "$11,000",
       "opening_bid": "",
       "principal_balance": "",
@@ -1501,6 +1471,36 @@
       "status": "active",
       "county": "Baltimore City",
       "full_cash_value": "$136,900"
+    },
+    {
+      "auction_date": "May 28, 2026",
+      "property_address": "4203 Grace Court, Baltimore, 21226",
+      "auction_time": "9:37 AM",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for St. Mary's County, at the Court House Door, 41605 Court House Dr., Leonardtown, MD 20650",
+      "bid_deposit": "$14,000",
+      "opening_bid": "",
+      "principal_balance": "",
+      "substitute_trustee": "",
+      "trustee_phone": "(410) 828-4838",
+      "detail_url": "https://realestate.alexcooper.com/lots/93759",
+      "status": "active",
+      "county": "Baltimore City",
+      "full_cash_value": "$30,000"
+    },
+    {
+      "auction_date": "May 28, 2026",
+      "property_address": "4328 Fairhaven Avenue, Baltimore, 21226",
+      "auction_time": "9:39 AM",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Baltimore City, at the Clarence M. Mitchell Court House, 100 North Calvert Street, Court House Door, Calvert Street entrance, Baltimore, MD 21202",
+      "bid_deposit": "$16,500",
+      "opening_bid": "",
+      "principal_balance": "",
+      "substitute_trustee": "",
+      "trustee_phone": "(410) 828-4838",
+      "detail_url": "https://realestate.alexcooper.com/lots/93959",
+      "status": "active",
+      "county": "Baltimore City",
+      "full_cash_value": "$30,000"
     }
   ]
 }
