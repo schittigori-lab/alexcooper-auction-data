@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-15T16:12:26Z",
+  "last_updated": "2026-05-15T18:26:07Z",
   "total_auctions": 100,
   "auctions": [
     {
@@ -178,30 +178,15 @@
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/143059",
-      "status": "active",
-      "county": "Montgomery County",
-      "full_cash_value": ""
-    },
-    {
-      "auction_date": "May 15, 2026",
-      "property_address": "14016 Seneca Ridge Drive, Hagerstown, 21740",
-      "auction_time": "12:30 PM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Washington County, at the Court House Door, 95 W. Washington St., Hagerstown, MD 21740",
-      "bid_deposit": "$29,000",
-      "opening_bid": "",
-      "principal_balance": "",
-      "substitute_trustee": "",
-      "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/123059",
       "status": "cancelled",
-      "county": "Washington County",
+      "county": "Montgomery County",
       "full_cash_value": ""
     },
     {
       "auction_date": "May 15, 2026",
       "property_address": "6429 Lincoln Court, Glen Burnie, 21061",
       "auction_time": "9:25 AM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Washington County, at the Court House Door, 95 W. Washington St., Hagerstown, MD 21740",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Montgomery County, at the Court House Door, 50 Maryland Ave., Rockville, MD 20850",
       "bid_deposit": "$22,000",
       "opening_bid": "",
       "principal_balance": "",
@@ -1491,7 +1476,7 @@
       "auction_date": "May 28, 2026",
       "property_address": "1410 North Bond Street, Baltimore, 21213",
       "auction_time": "9:58 AM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Baltimore City, at the Clarence M. Mitchell Court House, 100 North Calvert Street, Court House Door, Calvert Street entrance, Baltimore, MD 21202",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for St. Mary's County, at the Court House Door, 41605 Court House Dr., Leonardtown, MD 20650",
       "bid_deposit": "$18,000",
       "opening_bid": "",
       "principal_balance": "",
@@ -1501,6 +1486,21 @@
       "status": "active",
       "county": "Baltimore City",
       "full_cash_value": "$260,000"
+    },
+    {
+      "auction_date": "May 28, 2026",
+      "property_address": "764 North Grantley Street, Baltimore, 21229",
+      "auction_time": "10:00 AM",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Baltimore City, at the Clarence M. Mitchell Court House, 100 North Calvert Street, Court House Door, Calvert Street entrance, Baltimore, MD 21202",
+      "bid_deposit": "$18,000",
+      "opening_bid": "",
+      "principal_balance": "",
+      "substitute_trustee": "",
+      "trustee_phone": "(410) 828-4838",
+      "detail_url": "https://realestate.alexcooper.com/lots/100059",
+      "status": "active",
+      "county": "Baltimore City",
+      "full_cash_value": "$85,100"
     }
   ]
 }
