@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-21T19:54:47Z",
+  "last_updated": "2026-05-21T21:30:35Z",
   "total_auctions": 100,
   "auctions": [
     {
@@ -1305,7 +1305,7 @@
       "detail_url": "https://realestate.alexcooper.com/lots/92659",
       "status": "active",
       "county": "Baltimore City",
-      "full_cash_value": "$78,600"
+      "full_cash_value": ""
     },
     {
       "auction_date": "June 04, 2026",
@@ -1365,7 +1365,7 @@
       "detail_url": "https://realestate.alexcooper.com/lots/93759",
       "status": "active",
       "county": "Baltimore City",
-      "full_cash_value": "$75,000"
+      "full_cash_value": ""
     },
     {
       "auction_date": "June 04, 2026",
