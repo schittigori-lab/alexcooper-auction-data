@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-05-22T17:11:34Z",
-  "total_auctions": 100,
+  "last_updated": "2026-05-22T19:45:18Z",
+  "total_auctions": 98,
   "auctions": [
     {
       "auction_date": "",
@@ -13,7 +13,7 @@
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/153059",
-      "status": "active",
+      "status": "cancelled",
       "county": "Montgomery County",
       "full_cash_value": ""
     },
@@ -28,7 +28,7 @@
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/153559",
-      "status": "active",
+      "status": "cancelled",
       "county": "Montgomery County",
       "full_cash_value": ""
     },
@@ -73,38 +73,8 @@
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/154459",
-      "status": "active",
+      "status": "cancelled",
       "county": "Montgomery County",
-      "full_cash_value": ""
-    },
-    {
-      "auction_date": "May 22, 2026",
-      "property_address": "9005 Wildberry Court, Boonsboro, 21713",
-      "auction_time": "1:45 PM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Montgomery County, at the Court House Door, 50 Maryland Ave., Rockville, MD 20850",
-      "bid_deposit": "$18,000",
-      "opening_bid": "",
-      "principal_balance": "",
-      "substitute_trustee": "",
-      "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/134559",
-      "status": "cancelled",
-      "county": "Washington County",
-      "full_cash_value": ""
-    },
-    {
-      "auction_date": "May 22, 2026",
-      "property_address": "14654 Rowland Hill Road, Cascade, 21719",
-      "auction_time": "1:50 PM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Washington County, at the Court House Door, 95 W. Washington St., Hagerstown, MD 21740",
-      "bid_deposit": "$67,000",
-      "opening_bid": "",
-      "principal_balance": "",
-      "substitute_trustee": "",
-      "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/135059",
-      "status": "cancelled",
-      "county": "Washington County",
       "full_cash_value": ""
     },
     {
@@ -793,7 +763,7 @@
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/92259",
-      "status": "active",
+      "status": "cancelled",
       "county": "Anne Arundel County",
       "full_cash_value": ""
     },
