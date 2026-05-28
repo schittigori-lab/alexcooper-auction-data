@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-28T18:40:21Z",
+  "last_updated": "2026-05-28T21:12:57Z",
   "total_auctions": 100,
   "auctions": [
     {
@@ -223,7 +223,7 @@
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/110559",
-      "status": "active",
+      "status": "cancelled",
       "county": "Prince George's County",
       "full_cash_value": ""
     },
@@ -570,7 +570,7 @@
       "detail_url": "https://realestate.alexcooper.com/lots/92659",
       "status": "active",
       "county": "Baltimore City",
-      "full_cash_value": "$78,600"
+      "full_cash_value": ""
     },
     {
       "auction_date": "June 04, 2026",
@@ -630,7 +630,7 @@
       "detail_url": "https://realestate.alexcooper.com/lots/93759",
       "status": "active",
       "county": "Baltimore City",
-      "full_cash_value": "$75,000"
+      "full_cash_value": ""
     },
     {
       "auction_date": "June 04, 2026",
