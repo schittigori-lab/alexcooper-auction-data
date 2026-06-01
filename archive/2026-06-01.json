@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-01T17:37:32Z",
+  "last_updated": "2026-06-01T21:34:33Z",
   "total_auctions": 100,
   "auctions": [
     {
@@ -103,7 +103,7 @@
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/110059",
-      "status": "active",
+      "status": "cancelled",
       "county": "Prince George's County",
       "full_cash_value": ""
     },
@@ -883,7 +883,7 @@
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/124559",
-      "status": "active",
+      "status": "cancelled",
       "county": "Charles County",
       "full_cash_value": ""
     },
