@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-05T17:18:36Z",
+  "last_updated": "2026-06-05T19:55:42Z",
   "total_auctions": 100,
   "auctions": [
     {
@@ -733,7 +733,7 @@
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/111559",
-      "status": "active",
+      "status": "cancelled",
       "county": "Carroll County",
       "full_cash_value": ""
     },
