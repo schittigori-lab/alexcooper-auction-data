@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-09T20:09:08Z",
+  "last_updated": "2026-06-09T22:26:59Z",
   "total_auctions": 100,
   "auctions": [
     {
@@ -1500,7 +1500,7 @@
       "detail_url": "https://realestate.alexcooper.com/lots/121059",
       "status": "active",
       "county": "Baltimore City",
-      "full_cash_value": ""
+      "full_cash_value": "$1,124,100"
     }
   ]
 }
