@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-10T18:34:04Z",
+  "last_updated": "2026-06-10T21:30:04Z",
   "total_auctions": 100,
   "auctions": [
     {
@@ -28,7 +28,7 @@
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/92559",
-      "status": "active",
+      "status": "cancelled",
       "county": "Baltimore City",
       "full_cash_value": "$100"
     },
@@ -388,7 +388,7 @@
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/140759",
-      "status": "active",
+      "status": "cancelled",
       "county": "Harford County",
       "full_cash_value": ""
     },
