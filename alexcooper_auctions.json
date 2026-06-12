@@ -1,54 +1,9 @@
 {
-  "last_updated": "2026-06-12T17:41:08Z",
+  "last_updated": "2026-06-12T20:10:25Z",
   "total_auctions": 100,
   "auctions": [
     {
       "auction_date": "",
-      "property_address": "18725 Tanterra Way, Brookeville, 20833",
-      "auction_time": "2:20 PM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Montgomery County, at the Court House Door, 50 Maryland Ave., Rockville, MD 20850",
-      "bid_deposit": "$54,000",
-      "opening_bid": "",
-      "principal_balance": "",
-      "substitute_trustee": "",
-      "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/142059",
-      "status": "active",
-      "county": "Montgomery County",
-      "full_cash_value": ""
-    },
-    {
-      "auction_date": "June 12, 2026",
-      "property_address": "10838 Childs Street, Silver Spring, 20901",
-      "auction_time": "2:22 PM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Montgomery County, at the Court House Door, 50 Maryland Ave., Rockville, MD 20850",
-      "bid_deposit": "$34,000",
-      "opening_bid": "",
-      "principal_balance": "",
-      "substitute_trustee": "",
-      "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/142259",
-      "status": "cancelled",
-      "county": "Montgomery County",
-      "full_cash_value": ""
-    },
-    {
-      "auction_date": "June 12, 2026",
-      "property_address": "9039 Sligo Creek Parkway, Unit #1802, Silver Spring, 20901",
-      "auction_time": "2:24 PM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Montgomery County, at the Court House Door, 50 Maryland Ave., Rockville, MD 20850",
-      "bid_deposit": "$21,000",
-      "opening_bid": "",
-      "principal_balance": "",
-      "substitute_trustee": "",
-      "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/142459",
-      "status": "cancelled",
-      "county": "Montgomery County",
-      "full_cash_value": ""
-    },
-    {
-      "auction_date": "June 12, 2026",
       "property_address": "3950 Robinson Road, Huntingtown, 20639",
       "auction_time": "3:10 PM",
       "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Calvert County, at the Court House Door, 175 Main St., Prince Frederick, MD 20678",
@@ -268,7 +223,7 @@
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/104659",
-      "status": "active",
+      "status": "cancelled",
       "county": "Prince George's County",
       "full_cash_value": ""
     },
@@ -990,7 +945,7 @@
       "detail_url": "https://realestate.alexcooper.com/lots/121059",
       "status": "active",
       "county": "Baltimore City",
-      "full_cash_value": ""
+      "full_cash_value": "$1,124,100"
     },
     {
       "auction_date": "June 18, 2026",
@@ -1501,6 +1456,51 @@
       "status": "active",
       "county": "Worcester County",
       "full_cash_value": ""
+    },
+    {
+      "auction_date": "June 23, 2026",
+      "property_address": "1013 North Calhoun Street, Baltimore, 21217",
+      "auction_time": "9:15 AM",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Worcester County, at the Court House Door, One W. Market St., Snow Hill, MD 21863",
+      "bid_deposit": "$6,000",
+      "opening_bid": "",
+      "principal_balance": "",
+      "substitute_trustee": "",
+      "trustee_phone": "(410) 828-4838",
+      "detail_url": "https://realestate.alexcooper.com/lots/91559",
+      "status": "active",
+      "county": "Baltimore City",
+      "full_cash_value": "$70,200"
+    },
+    {
+      "auction_date": "June 25, 2026",
+      "property_address": "3407 Parkside Drive, Baltimore, 21214",
+      "auction_time": "9:20 AM",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Worcester County, at the Court House Door, One W. Market St., Snow Hill, MD 21863",
+      "bid_deposit": "$25,000",
+      "opening_bid": "",
+      "principal_balance": "",
+      "substitute_trustee": "",
+      "trustee_phone": "(410) 828-4838",
+      "detail_url": "https://realestate.alexcooper.com/lots/92059",
+      "status": "active",
+      "county": "Baltimore City",
+      "full_cash_value": "$142,700"
+    },
+    {
+      "auction_date": "June 25, 2026",
+      "property_address": "620 Wyanoke Avenue, Baltimore, 21218",
+      "auction_time": "9:22 AM",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Baltimore City, at the Clarence M. Mitchell Court House, 100 North Calvert Street, Court House Door, Calvert Street entrance, Baltimore, MD 21202",
+      "bid_deposit": "$26,000",
+      "opening_bid": "",
+      "principal_balance": "",
+      "substitute_trustee": "",
+      "trustee_phone": "(410) 828-4838",
+      "detail_url": "https://realestate.alexcooper.com/lots/92259",
+      "status": "active",
+      "county": "Baltimore City",
+      "full_cash_value": "$289,200"
     }
   ]
 }
