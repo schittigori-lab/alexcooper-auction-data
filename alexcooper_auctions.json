@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-15T17:15:21Z",
+  "last_updated": "2026-06-15T20:57:04Z",
   "total_auctions": 100,
   "auctions": [
     {
@@ -283,7 +283,7 @@
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/140059",
-      "status": "active",
+      "status": "cancelled",
       "county": "Wicomico County",
       "full_cash_value": ""
     },
