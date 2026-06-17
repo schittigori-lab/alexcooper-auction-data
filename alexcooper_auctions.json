@@ -1,27 +1,12 @@
 {
-  "last_updated": "2026-06-17T18:21:16Z",
+  "last_updated": "2026-06-17T21:31:19Z",
   "total_auctions": 100,
   "auctions": [
     {
       "auction_date": "",
-      "property_address": "8701 Georgia Avenue, Silver Spring, 20910",
-      "auction_time": "3:30 PM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Montgomery County, at the Court House Door, 50 Maryland Ave., Rockville, MD 20850",
-      "bid_deposit": "$250,000",
-      "opening_bid": "",
-      "principal_balance": "",
-      "substitute_trustee": "",
-      "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/153059",
-      "status": "cancelled",
-      "county": "Montgomery County",
-      "full_cash_value": ""
-    },
-    {
-      "auction_date": "June 17, 2026",
       "property_address": "6606 Park Heights Avenue, Unit #803, Baltimore, 21215",
       "auction_time": "9:15 AM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Montgomery County, at the Court House Door, 50 Maryland Ave., Rockville, MD 20850",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Baltimore City, at the Clarence M. Mitchell Court House, 100 North Calvert Street, Court House Door, Calvert Street entrance, Baltimore, MD 21202",
       "bid_deposit": "$5,000",
       "opening_bid": "",
       "principal_balance": "",
@@ -36,14 +21,14 @@
       "auction_date": "June 18, 2026",
       "property_address": "1703 Ruxton Avenue, Baltimore, 21216",
       "auction_time": "9:25 AM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Montgomery County, at the Court House Door, 50 Maryland Ave., Rockville, MD 20850",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Baltimore City, at the Clarence M. Mitchell Court House, 100 North Calvert Street, Court House Door, Calvert Street entrance, Baltimore, MD 21202",
       "bid_deposit": "$10,000",
       "opening_bid": "",
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/92559",
-      "status": "active",
+      "status": "cancelled",
       "county": "Baltimore City",
       "full_cash_value": "$50,100"
     },
@@ -51,7 +36,7 @@
       "auction_date": "June 18, 2026",
       "property_address": "1022 Iris Avenue + 9 properties, Baltimore,  Dep. See ad.",
       "auction_time": "9:35 AM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Montgomery County, at the Court House Door, 50 Maryland Ave., Rockville, MD 20850",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Baltimore City, at the Clarence M. Mitchell Court House, 100 North Calvert Street, Court House Door, Calvert Street entrance, Baltimore, MD 21202",
       "bid_deposit": "",
       "opening_bid": "",
       "principal_balance": "",
@@ -66,7 +51,7 @@
       "auction_date": "June 18, 2026",
       "property_address": "3625 Lucille Avenue, Baltimore, 21215",
       "auction_time": "9:45 AM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Montgomery County, at the Court House Door, 50 Maryland Ave., Rockville, MD 20850",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Baltimore City, at the Clarence M. Mitchell Court House, 100 North Calvert Street, Court House Door, Calvert Street entrance, Baltimore, MD 21202",
       "bid_deposit": "$9,500",
       "opening_bid": "",
       "principal_balance": "",
@@ -81,7 +66,7 @@
       "auction_date": "June 18, 2026",
       "property_address": "1432 North Mount Street, Baltimore, 21217",
       "auction_time": "9:55 AM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Montgomery County, at the Court House Door, 50 Maryland Ave., Rockville, MD 20850",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Baltimore City, at the Clarence M. Mitchell Court House, 100 North Calvert Street, Court House Door, Calvert Street entrance, Baltimore, MD 21202",
       "bid_deposit": "$10,000",
       "opening_bid": "",
       "principal_balance": "",
@@ -96,7 +81,7 @@
       "auction_date": "June 18, 2026",
       "property_address": "3615 Gelston Drive, Baltimore, 21229",
       "auction_time": "9:57 AM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Montgomery County, at the Court House Door, 50 Maryland Ave., Rockville, MD 20850",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Baltimore City, at the Clarence M. Mitchell Court House, 100 North Calvert Street, Court House Door, Calvert Street entrance, Baltimore, MD 21202",
       "bid_deposit": "$10,000",
       "opening_bid": "",
       "principal_balance": "",
@@ -111,7 +96,7 @@
       "auction_date": "June 18, 2026",
       "property_address": "3515 Woodstock Avenue, Baltimore, 21213",
       "auction_time": "9:59 AM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Montgomery County, at the Court House Door, 50 Maryland Ave., Rockville, MD 20850",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Baltimore City, at the Clarence M. Mitchell Court House, 100 North Calvert Street, Court House Door, Calvert Street entrance, Baltimore, MD 21202",
       "bid_deposit": "$10,000",
       "opening_bid": "",
       "principal_balance": "",
@@ -126,7 +111,7 @@
       "auction_date": "June 18, 2026",
       "property_address": "810 Washburn Avenue, Baltimore, 21225",
       "auction_time": "10:01 AM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Montgomery County, at the Court House Door, 50 Maryland Ave., Rockville, MD 20850",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Baltimore City, at the Clarence M. Mitchell Court House, 100 North Calvert Street, Court House Door, Calvert Street entrance, Baltimore, MD 21202",
       "bid_deposit": "$10,000",
       "opening_bid": "",
       "principal_balance": "",
@@ -141,7 +126,7 @@
       "auction_date": "June 18, 2026",
       "property_address": "4905 Palmer Avenue, Baltimore, 21215",
       "auction_time": "10:06 AM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Montgomery County, at the Court House Door, 50 Maryland Ave., Rockville, MD 20850",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Baltimore City, at the Clarence M. Mitchell Court House, 100 North Calvert Street, Court House Door, Calvert Street entrance, Baltimore, MD 21202",
       "bid_deposit": "$23,000",
       "opening_bid": "",
       "principal_balance": "",
@@ -156,7 +141,7 @@
       "auction_date": "June 18, 2026",
       "property_address": "2808 West Mosher Street, Baltimore, 21216",
       "auction_time": "10:08 AM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Montgomery County, at the Court House Door, 50 Maryland Ave., Rockville, MD 20850",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Baltimore City, at the Clarence M. Mitchell Court House, 100 North Calvert Street, Court House Door, Calvert Street entrance, Baltimore, MD 21202",
       "bid_deposit": "$18,000",
       "opening_bid": "",
       "principal_balance": "",
@@ -165,13 +150,13 @@
       "detail_url": "https://realestate.alexcooper.com/lots/100859",
       "status": "active",
       "county": "Baltimore City",
-      "full_cash_value": ""
+      "full_cash_value": "$110,000"
     },
     {
       "auction_date": "June 18, 2026",
       "property_address": "4501 Park Heights Avenue, Baltimore, 21215",
       "auction_time": "10:10 AM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Montgomery County, at the Court House Door, 50 Maryland Ave., Rockville, MD 20850",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Baltimore City, at the Clarence M. Mitchell Court House, 100 North Calvert Street, Court House Door, Calvert Street entrance, Baltimore, MD 21202",
       "bid_deposit": "$36,000",
       "opening_bid": "",
       "principal_balance": "",
@@ -186,7 +171,7 @@
       "auction_date": "June 18, 2026",
       "property_address": "4219 Hamilton Avenue, Baltimore, 21206",
       "auction_time": "10:15 AM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Montgomery County, at the Court House Door, 50 Maryland Ave., Rockville, MD 20850",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Baltimore City, at the Clarence M. Mitchell Court House, 100 North Calvert Street, Court House Door, Calvert Street entrance, Baltimore, MD 21202",
       "bid_deposit": "$6,000",
       "opening_bid": "",
       "principal_balance": "",
@@ -201,7 +186,7 @@
       "auction_date": "June 18, 2026",
       "property_address": "4124 Forest Park Avenue West, Baltimore, 21207",
       "auction_time": "10:17 AM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Montgomery County, at the Court House Door, 50 Maryland Ave., Rockville, MD 20850",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Baltimore City, at the Clarence M. Mitchell Court House, 100 North Calvert Street, Court House Door, Calvert Street entrance, Baltimore, MD 21202",
       "bid_deposit": "$18,000",
       "opening_bid": "",
       "principal_balance": "",
@@ -216,7 +201,7 @@
       "auction_date": "June 18, 2026",
       "property_address": "1917 North Bentalou Street, Baltimore, 21216",
       "auction_time": "10:19 AM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Montgomery County, at the Court House Door, 50 Maryland Ave., Rockville, MD 20850",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Baltimore City, at the Clarence M. Mitchell Court House, 100 North Calvert Street, Court House Door, Calvert Street entrance, Baltimore, MD 21202",
       "bid_deposit": "$5,000",
       "opening_bid": "",
       "principal_balance": "",
@@ -231,7 +216,7 @@
       "auction_date": "June 18, 2026",
       "property_address": "2319 East Fayette Street, Baltimore, 21224",
       "auction_time": "10:21 AM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Montgomery County, at the Court House Door, 50 Maryland Ave., Rockville, MD 20850",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Baltimore City, at the Clarence M. Mitchell Court House, 100 North Calvert Street, Court House Door, Calvert Street entrance, Baltimore, MD 21202",
       "bid_deposit": "$18,000",
       "opening_bid": "",
       "principal_balance": "",
@@ -240,13 +225,13 @@
       "detail_url": "https://realestate.alexcooper.com/lots/102159",
       "status": "active",
       "county": "Baltimore City",
-      "full_cash_value": ""
+      "full_cash_value": "$250,900"
     },
     {
       "auction_date": "June 18, 2026",
       "property_address": "3143 Cliftmont Avenue, Baltimore, 21213",
       "auction_time": "10:23 AM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Montgomery County, at the Court House Door, 50 Maryland Ave., Rockville, MD 20850",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Baltimore City, at the Clarence M. Mitchell Court House, 100 North Calvert Street, Court House Door, Calvert Street entrance, Baltimore, MD 21202",
       "bid_deposit": "$5,000",
       "opening_bid": "",
       "principal_balance": "",
@@ -261,7 +246,7 @@
       "auction_date": "June 18, 2026",
       "property_address": "4219 Norfolk Avenue, Baltimore, 21216",
       "auction_time": "10:25 AM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Montgomery County, at the Court House Door, 50 Maryland Ave., Rockville, MD 20850",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Baltimore City, at the Clarence M. Mitchell Court House, 100 North Calvert Street, Court House Door, Calvert Street entrance, Baltimore, MD 21202",
       "bid_deposit": "$9,000",
       "opening_bid": "",
       "principal_balance": "",
@@ -276,7 +261,7 @@
       "auction_date": "June 18, 2026",
       "property_address": "4402 Kavon Avenue, Baltimore, 21206",
       "auction_time": "10:27 AM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Montgomery County, at the Court House Door, 50 Maryland Ave., Rockville, MD 20850",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Baltimore City, at the Clarence M. Mitchell Court House, 100 North Calvert Street, Court House Door, Calvert Street entrance, Baltimore, MD 21202",
       "bid_deposit": "$18,000",
       "opening_bid": "",
       "principal_balance": "",
@@ -291,7 +276,7 @@
       "auction_date": "June 18, 2026",
       "property_address": "1918 Wilmington Avenue, Baltimore, 21230",
       "auction_time": "10:29 AM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Montgomery County, at the Court House Door, 50 Maryland Ave., Rockville, MD 20850",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Baltimore City, at the Clarence M. Mitchell Court House, 100 North Calvert Street, Court House Door, Calvert Street entrance, Baltimore, MD 21202",
       "bid_deposit": "$14,000",
       "opening_bid": "",
       "principal_balance": "",
@@ -306,7 +291,7 @@
       "auction_date": "June 18, 2026",
       "property_address": "1210 North Calvert Street & 1021 Saint Paul Street, Baltimore, 21202",
       "auction_time": "12:00 PM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Montgomery County, at the Court House Door, 50 Maryland Ave., Rockville, MD 20850",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Baltimore City, at the Clarence M. Mitchell Court House, 100 North Calvert Street, Court House Door, Calvert Street entrance, Baltimore, MD 21202",
       "bid_deposit": "$50,000",
       "opening_bid": "",
       "principal_balance": "",
@@ -315,13 +300,13 @@
       "detail_url": "https://realestate.alexcooper.com/lots/120059",
       "status": "active",
       "county": "Baltimore City",
-      "full_cash_value": ""
+      "full_cash_value": "$910,700"
     },
     {
       "auction_date": "June 18, 2026",
       "property_address": "1720-1722 Saint Paul Street, Baltimore, 21202",
       "auction_time": "12:05 PM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Montgomery County, at the Court House Door, 50 Maryland Ave., Rockville, MD 20850",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Baltimore City, at the Clarence M. Mitchell Court House, 100 North Calvert Street, Court House Door, Calvert Street entrance, Baltimore, MD 21202",
       "bid_deposit": "$50,000",
       "opening_bid": "",
       "principal_balance": "",
@@ -336,7 +321,7 @@
       "auction_date": "June 18, 2026",
       "property_address": "13 East Read Street, Baltimore, 21202",
       "auction_time": "12:10 PM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Montgomery County, at the Court House Door, 50 Maryland Ave., Rockville, MD 20850",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Baltimore City, at the Clarence M. Mitchell Court House, 100 North Calvert Street, Court House Door, Calvert Street entrance, Baltimore, MD 21202",
       "bid_deposit": "$50,000",
       "opening_bid": "",
       "principal_balance": "",
@@ -351,7 +336,7 @@
       "auction_date": "June 18, 2026",
       "property_address": "816 Park Avenue, Baltimore, 21201",
       "auction_time": "12:15 PM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Montgomery County, at the Court House Door, 50 Maryland Ave., Rockville, MD 20850",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Baltimore City, at the Clarence M. Mitchell Court House, 100 North Calvert Street, Court House Door, Calvert Street entrance, Baltimore, MD 21202",
       "bid_deposit": "$50,000",
       "opening_bid": "",
       "principal_balance": "",
@@ -366,7 +351,7 @@
       "auction_date": "June 18, 2026",
       "property_address": "1005 North Charles Street, Baltimore, 21201",
       "auction_time": "12:20 PM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Montgomery County, at the Court House Door, 50 Maryland Ave., Rockville, MD 20850",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Baltimore City, at the Clarence M. Mitchell Court House, 100 North Calvert Street, Court House Door, Calvert Street entrance, Baltimore, MD 21202",
       "bid_deposit": "$50,000",
       "opening_bid": "",
       "principal_balance": "",
@@ -508,7 +493,7 @@
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/92559",
-      "status": "active",
+      "status": "cancelled",
       "county": "Anne Arundel County",
       "full_cash_value": ""
     },
@@ -885,7 +870,7 @@
       "detail_url": "https://realestate.alexcooper.com/lots/92059",
       "status": "active",
       "county": "Baltimore City",
-      "full_cash_value": ""
+      "full_cash_value": "$142,700"
     },
     {
       "auction_date": "June 25, 2026",
@@ -915,7 +900,7 @@
       "detail_url": "https://realestate.alexcooper.com/lots/92759",
       "status": "active",
       "county": "Baltimore City",
-      "full_cash_value": ""
+      "full_cash_value": "$40,000"
     },
     {
       "auction_date": "June 25, 2026",
@@ -960,7 +945,7 @@
       "detail_url": "https://realestate.alexcooper.com/lots/93359",
       "status": "active",
       "county": "Baltimore City",
-      "full_cash_value": ""
+      "full_cash_value": "$38,000"
     },
     {
       "auction_date": "June 25, 2026",
@@ -990,7 +975,7 @@
       "detail_url": "https://realestate.alexcooper.com/lots/93759",
       "status": "active",
       "county": "Baltimore City",
-      "full_cash_value": ""
+      "full_cash_value": "$127,200"
     },
     {
       "auction_date": "June 25, 2026",
@@ -1005,7 +990,7 @@
       "detail_url": "https://realestate.alexcooper.com/lots/93959",
       "status": "active",
       "county": "Baltimore City",
-      "full_cash_value": ""
+      "full_cash_value": "$34,000"
     },
     {
       "auction_date": "June 25, 2026",
@@ -1035,7 +1020,7 @@
       "detail_url": "https://realestate.alexcooper.com/lots/94359",
       "status": "active",
       "county": "Baltimore City",
-      "full_cash_value": ""
+      "full_cash_value": "$32,000"
     },
     {
       "auction_date": "June 25, 2026",
@@ -1110,7 +1095,7 @@
       "detail_url": "https://realestate.alexcooper.com/lots/95659",
       "status": "active",
       "county": "Baltimore City",
-      "full_cash_value": ""
+      "full_cash_value": "$148,500"
     },
     {
       "auction_date": "June 25, 2026",
@@ -1491,13 +1476,28 @@
       "auction_date": "June 26, 2026",
       "property_address": "9226 Curtis Drive, Columbia, 21045",
       "auction_time": "9:46 AM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Howard County, at the Court House Door, 9250 Judicial Way, Ellicott City, MD 21043",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Frederick County, at the Court House Door, 100 W. Patrick St., Frederick, MD 21701",
       "bid_deposit": "$35,000",
       "opening_bid": "",
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/94659",
+      "status": "active",
+      "county": "Howard County",
+      "full_cash_value": ""
+    },
+    {
+      "auction_date": "June 26, 2026",
+      "property_address": "10112 American Pharoah Lane, Unit A, Laurel, 20723",
+      "auction_time": "9:50 AM",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Howard County, at the Court House Door, 9250 Judicial Way, Ellicott City, MD 21043",
+      "bid_deposit": "$34,000",
+      "opening_bid": "",
+      "principal_balance": "",
+      "substitute_trustee": "",
+      "trustee_phone": "(410) 828-4838",
+      "detail_url": "https://realestate.alexcooper.com/lots/95059",
       "status": "active",
       "county": "Howard County",
       "full_cash_value": ""
