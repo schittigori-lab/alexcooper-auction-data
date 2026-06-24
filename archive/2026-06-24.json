@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-24T19:47:17Z",
+  "last_updated": "2026-06-24T21:25:40Z",
   "total_auctions": 100,
   "auctions": [
     {
@@ -1048,7 +1048,7 @@
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/104559",
-      "status": "active",
+      "status": "cancelled",
       "county": "Prince George's County",
       "full_cash_value": ""
     },
