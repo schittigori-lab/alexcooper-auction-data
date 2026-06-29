@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-29T15:45:33Z",
+  "last_updated": "2026-06-29T18:12:18Z",
   "total_auctions": 100,
   "auctions": [
     {
@@ -313,7 +313,7 @@
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/111559",
-      "status": "active",
+      "status": "cancelled",
       "county": "Prince George's County",
       "full_cash_value": ""
     },
@@ -838,7 +838,7 @@
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/151059",
-      "status": "active",
+      "status": "cancelled",
       "county": "Cecil County",
       "full_cash_value": ""
     },
