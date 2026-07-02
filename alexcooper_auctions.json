@@ -1,39 +1,9 @@
 {
-  "last_updated": "2026-07-02T18:29:44Z",
+  "last_updated": "2026-07-02T20:21:57Z",
   "total_auctions": 100,
   "auctions": [
     {
       "auction_date": "",
-      "property_address": "308 Fair Hill Drive, Elkton, 21921",
-      "auction_time": "3:10 PM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Cecil County, at the Court House Door, 129 E. Main St., Elkton, MD 21921",
-      "bid_deposit": "$12,000",
-      "opening_bid": "",
-      "principal_balance": "",
-      "substitute_trustee": "",
-      "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/151059",
-      "status": "cancelled",
-      "county": "Cecil County",
-      "full_cash_value": ""
-    },
-    {
-      "auction_date": "July 02, 2026",
-      "property_address": "1555 Turkey Point Road, Northeast, 21901 Dep. SEE AD",
-      "auction_time": "3:15 PM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Cecil County, at the Court House Door, 129 E. Main St., Elkton, MD 21921",
-      "bid_deposit": "",
-      "opening_bid": "",
-      "principal_balance": "",
-      "substitute_trustee": "",
-      "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/151559",
-      "status": "cancelled",
-      "county": "Cecil County",
-      "full_cash_value": ""
-    },
-    {
-      "auction_date": "July 02, 2026",
       "property_address": "1426 & 1428 Park Road, NW, Washington, 20010 Dep. SEE AD. (SEE FEATURED AUCTIONS)",
       "auction_time": "10:00 AM",
       "auction_location": "THE ABOVE SALE(S) TO BE HELD AT THE DC OFFICE OF ALEX COOPER AUCTS., INC. LOCATED AT 4910 MASSACHUSETTS AVE., NW #100, WASH DC 20016",
@@ -1491,7 +1461,7 @@
       "auction_date": "July 16, 2026",
       "property_address": "1616 Hartsdale Road, Baltimore, 21239",
       "auction_time": "9:32 AM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Baltimore City, at the Clarence M. Mitchell Court House, 100 North Calvert Street, Court House Door, Calvert Street entrance, Baltimore, MD 21202",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Wicomico County, at the Court House Door, 101 N. Division St., Salisbury, MD 21801",
       "bid_deposit": "$7,000",
       "opening_bid": "",
       "principal_balance": "",
@@ -1501,6 +1471,36 @@
       "status": "active",
       "county": "Baltimore City",
       "full_cash_value": "$158,400"
+    },
+    {
+      "auction_date": "July 16, 2026",
+      "property_address": "3804 Fairhaven Avenue, Baltimore, 21226",
+      "auction_time": "9:36 AM",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Wicomico County, at the Court House Door, 101 N. Division St., Salisbury, MD 21801",
+      "bid_deposit": "$15,000",
+      "opening_bid": "",
+      "principal_balance": "",
+      "substitute_trustee": "",
+      "trustee_phone": "(410) 828-4838",
+      "detail_url": "https://realestate.alexcooper.com/lots/93659",
+      "status": "active",
+      "county": "Baltimore City",
+      "full_cash_value": "$30,000"
+    },
+    {
+      "auction_date": "July 16, 2026",
+      "property_address": "3806 Fairhaven Avenue, Baltimore, 21226",
+      "auction_time": "9:38 AM",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Baltimore City, at the Clarence M. Mitchell Court House, 100 North Calvert Street, Court House Door, Calvert Street entrance, Baltimore, MD 21202",
+      "bid_deposit": "$16,500",
+      "opening_bid": "",
+      "principal_balance": "",
+      "substitute_trustee": "",
+      "trustee_phone": "(410) 828-4838",
+      "detail_url": "https://realestate.alexcooper.com/lots/93859",
+      "status": "active",
+      "county": "Baltimore City",
+      "full_cash_value": "$30,000"
     }
   ]
 }
