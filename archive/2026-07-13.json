@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-13T19:24:49Z",
+  "last_updated": "2026-07-13T20:59:15Z",
   "total_auctions": 100,
   "auctions": [
     {
@@ -88,7 +88,7 @@
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/93159",
-      "status": "active",
+      "status": "cancelled",
       "county": "Anne Arundel County",
       "full_cash_value": ""
     },
