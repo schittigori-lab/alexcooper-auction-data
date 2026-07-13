@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-13T17:15:36Z",
+  "last_updated": "2026-07-13T19:24:49Z",
   "total_auctions": 100,
   "auctions": [
     {
@@ -103,7 +103,7 @@
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/151559",
-      "status": "active",
+      "status": "cancelled",
       "county": "Calvert County",
       "full_cash_value": ""
     },
@@ -133,7 +133,7 @@
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/104559",
-      "status": "active",
+      "status": "cancelled",
       "county": "Prince George's County",
       "full_cash_value": ""
     },
@@ -238,7 +238,7 @@
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/110559",
-      "status": "active",
+      "status": "cancelled",
       "county": "Prince George's County",
       "full_cash_value": ""
     },
@@ -283,7 +283,7 @@
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/130259",
-      "status": "active",
+      "status": "cancelled",
       "county": "St. Mary's County",
       "full_cash_value": ""
     },
