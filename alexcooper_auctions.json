@@ -1,27 +1,12 @@
 {
-  "last_updated": "2026-07-13T14:31:22Z",
+  "last_updated": "2026-07-13T17:15:36Z",
   "total_auctions": 100,
   "auctions": [
     {
       "auction_date": "",
-      "property_address": "300 Carroll Street, NW, Washington, 20012",
-      "auction_time": "11:30 AM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD AT THE DC OFFICE OF ALEX COOPER AUCTS., INC. LOCATED AT 4910 MASSACHUSETTS AVE., NW #100, WASH DC 20016",
-      "bid_deposit": "$2,000,000",
-      "opening_bid": "",
-      "principal_balance": "",
-      "substitute_trustee": "",
-      "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/113059",
-      "status": "active",
-      "county": "District of Columbia",
-      "full_cash_value": ""
-    },
-    {
-      "auction_date": "July 13, 2026",
       "property_address": "213 Frankle Street, Brooklyn, 21225",
       "auction_time": "9:15 AM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD AT THE DC OFFICE OF ALEX COOPER AUCTS., INC. LOCATED AT 4910 MASSACHUSETTS AVE., NW #100, WASH DC 20016",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Anne Arundel County, at the Court House Door, 8 Church Circle, Annapolis, MD 21401",
       "bid_deposit": "$18,000",
       "opening_bid": "",
       "principal_balance": "",
@@ -36,7 +21,7 @@
       "auction_date": "July 14, 2026",
       "property_address": "7994 Stone Haven Drive, Glen Burnie, 21060",
       "auction_time": "9:20 AM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD AT THE DC OFFICE OF ALEX COOPER AUCTS., INC. LOCATED AT 4910 MASSACHUSETTS AVE., NW #100, WASH DC 20016",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Anne Arundel County, at the Court House Door, 8 Church Circle, Annapolis, MD 21401",
       "bid_deposit": "$10,000",
       "opening_bid": "",
       "principal_balance": "",
@@ -51,7 +36,7 @@
       "auction_date": "July 14, 2026",
       "property_address": "3347 Old Line Avenue, Laurel, 20724",
       "auction_time": "9:25 AM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD AT THE DC OFFICE OF ALEX COOPER AUCTS., INC. LOCATED AT 4910 MASSACHUSETTS AVE., NW #100, WASH DC 20016",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Anne Arundel County, at the Court House Door, 8 Church Circle, Annapolis, MD 21401",
       "bid_deposit": "$19,000",
       "opening_bid": "",
       "principal_balance": "",
@@ -66,7 +51,7 @@
       "auction_date": "July 14, 2026",
       "property_address": "3262 Kitty Duvall Drive, Annapolis, 21403",
       "auction_time": "9:27 AM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD AT THE DC OFFICE OF ALEX COOPER AUCTS., INC. LOCATED AT 4910 MASSACHUSETTS AVE., NW #100, WASH DC 20016",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Anne Arundel County, at the Court House Door, 8 Church Circle, Annapolis, MD 21401",
       "bid_deposit": "$28,000",
       "opening_bid": "",
       "principal_balance": "",
@@ -81,7 +66,7 @@
       "auction_date": "July 14, 2026",
       "property_address": "530 Fawns Walk, Annapolis, 21409",
       "auction_time": "9:29 AM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD AT THE DC OFFICE OF ALEX COOPER AUCTS., INC. LOCATED AT 4910 MASSACHUSETTS AVE., NW #100, WASH DC 20016",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Anne Arundel County, at the Court House Door, 8 Church Circle, Annapolis, MD 21401",
       "bid_deposit": "$40,000",
       "opening_bid": "",
       "principal_balance": "",
@@ -163,7 +148,7 @@
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/105059",
-      "status": "active",
+      "status": "cancelled",
       "county": "Prince George's County",
       "full_cash_value": ""
     },
@@ -193,7 +178,7 @@
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/105759",
-      "status": "active",
+      "status": "cancelled",
       "county": "Prince George's County",
       "full_cash_value": ""
     },
@@ -373,7 +358,7 @@
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/141559",
-      "status": "active",
+      "status": "cancelled",
       "county": "Wicomico County",
       "full_cash_value": ""
     },
@@ -1491,7 +1476,7 @@
       "auction_date": "July 23, 2026",
       "property_address": "1711 Darley Avenue, Baltimore, 21213",
       "auction_time": "9:58 AM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Baltimore City, at the Clarence M. Mitchell Court House, 100 North Calvert Street, Court House Door, Calvert Street entrance, Baltimore, MD 21202",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD AT THE DC OFFICE OF ALEX COOPER AUCTS., INC. LOCATED AT 4910 MASSACHUSETTS AVE., NW #100, WASH DC 20016",
       "bid_deposit": "$17,000",
       "opening_bid": "",
       "principal_balance": "",
@@ -1501,6 +1486,21 @@
       "status": "active",
       "county": "Baltimore City",
       "full_cash_value": "$31,000"
+    },
+    {
+      "auction_date": "July 23, 2026",
+      "property_address": "5606 Cadillac Avenue, Baltimore, 21207",
+      "auction_time": "10:00 AM",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Baltimore City, at the Clarence M. Mitchell Court House, 100 North Calvert Street, Court House Door, Calvert Street entrance, Baltimore, MD 21202",
+      "bid_deposit": "$8,000",
+      "opening_bid": "",
+      "principal_balance": "",
+      "substitute_trustee": "",
+      "trustee_phone": "(410) 828-4838",
+      "detail_url": "https://realestate.alexcooper.com/lots/100059",
+      "status": "active",
+      "county": "Baltimore City",
+      "full_cash_value": "$109,800"
     }
   ]
 }
