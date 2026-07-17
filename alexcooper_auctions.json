@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-17T17:13:39Z",
+  "last_updated": "2026-07-17T19:06:32Z",
   "total_auctions": 100,
   "auctions": [
     {
@@ -30,36 +30,6 @@
       "detail_url": "https://realestate.alexcooper.com/lots/154559",
       "status": "cancelled",
       "county": "Montgomery County",
-      "full_cash_value": ""
-    },
-    {
-      "auction_date": "July 17, 2026",
-      "property_address": "925 Saint Clair Street, Hagerstown, 21742",
-      "auction_time": "2:05 PM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Montgomery County, at the Court House Door, 50 Maryland Ave., Rockville, MD 20850",
-      "bid_deposit": "$22,000",
-      "opening_bid": "",
-      "principal_balance": "",
-      "substitute_trustee": "",
-      "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/140559",
-      "status": "active",
-      "county": "Washington County",
-      "full_cash_value": ""
-    },
-    {
-      "auction_date": "July 17, 2026",
-      "property_address": "19503 Marsh Circle, Hagerstown, 21742",
-      "auction_time": "2:07 PM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Washington County, at the Court House Door, 95 W. Washington St., Hagerstown, MD 21740",
-      "bid_deposit": "$27,000",
-      "opening_bid": "",
-      "principal_balance": "",
-      "substitute_trustee": "",
-      "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/140759",
-      "status": "active",
-      "county": "Washington County",
       "full_cash_value": ""
     },
     {
@@ -1500,6 +1470,36 @@
       "detail_url": "https://realestate.alexcooper.com/lots/93559",
       "status": "active",
       "county": "Howard County",
+      "full_cash_value": ""
+    },
+    {
+      "auction_date": "July 31, 2026",
+      "property_address": "1649 Carriage House Terrace, Unit D, Silver Spring, 20904",
+      "auction_time": "1:40 PM",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Howard County, at the Court House Door, 9250 Judicial Way, Ellicott City, MD 21043",
+      "bid_deposit": "$20,000",
+      "opening_bid": "",
+      "principal_balance": "",
+      "substitute_trustee": "",
+      "trustee_phone": "(410) 828-4838",
+      "detail_url": "https://realestate.alexcooper.com/lots/134059",
+      "status": "active",
+      "county": "Montgomery County",
+      "full_cash_value": ""
+    },
+    {
+      "auction_date": "July 31, 2026",
+      "property_address": "8712 Sundale Drive, Silver Spring, 20910",
+      "auction_time": "1:42 PM",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Montgomery County, at the Court House Door, 50 Maryland Ave., Rockville, MD 20850",
+      "bid_deposit": "$20,000",
+      "opening_bid": "",
+      "principal_balance": "",
+      "substitute_trustee": "",
+      "trustee_phone": "(410) 828-4838",
+      "detail_url": "https://realestate.alexcooper.com/lots/134259",
+      "status": "cancelled",
+      "county": "Montgomery County",
       "full_cash_value": ""
     }
   ]
