@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-20T14:03:24Z",
+  "last_updated": "2026-07-20T15:58:27Z",
   "total_auctions": 100,
   "auctions": [
     {
@@ -13,7 +13,7 @@
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/91559",
-      "status": "active",
+      "status": "cancelled",
       "county": "Anne Arundel County",
       "full_cash_value": ""
     },
@@ -1063,7 +1063,7 @@
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/111559",
-      "status": "active",
+      "status": "cancelled",
       "county": "Prince George's County",
       "full_cash_value": ""
     },
