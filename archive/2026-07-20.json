@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-20T18:02:48Z",
+  "last_updated": "2026-07-20T19:51:28Z",
   "total_auctions": 100,
   "auctions": [
     {
@@ -28,7 +28,7 @@
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/134559",
-      "status": "active",
+      "status": "cancelled",
       "county": "Calvert County",
       "full_cash_value": ""
     },
@@ -88,7 +88,7 @@
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/103059",
-      "status": "active",
+      "status": "cancelled",
       "county": "Prince George's County",
       "full_cash_value": ""
     },
@@ -118,7 +118,7 @@
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/103859",
-      "status": "active",
+      "status": "cancelled",
       "county": "Prince George's County",
       "full_cash_value": ""
     },
@@ -643,7 +643,7 @@
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/95059",
-      "status": "active",
+      "status": "cancelled",
       "county": "Baltimore City",
       "full_cash_value": "$167,700"
     },
@@ -808,7 +808,7 @@
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/134059",
-      "status": "active",
+      "status": "cancelled",
       "county": "Harford County",
       "full_cash_value": ""
     },
@@ -883,7 +883,7 @@
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/105959",
-      "status": "active",
+      "status": "cancelled",
       "county": "Montgomery County",
       "full_cash_value": ""
     },
@@ -1423,7 +1423,7 @@
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/93059",
-      "status": "active",
+      "status": "cancelled",
       "county": "Howard County",
       "full_cash_value": ""
     },
