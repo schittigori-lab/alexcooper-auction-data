@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-21T19:20:37Z",
+  "last_updated": "2026-07-21T21:08:29Z",
   "total_auctions": 100,
   "auctions": [
     {
@@ -58,7 +58,7 @@
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/110059",
-      "status": "active",
+      "status": "cancelled",
       "county": "District of Columbia",
       "full_cash_value": ""
     },
@@ -73,7 +73,7 @@
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/110359",
-      "status": "active",
+      "status": "cancelled",
       "county": "District of Columbia",
       "full_cash_value": ""
     },
