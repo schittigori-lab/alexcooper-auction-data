@@ -1,24 +1,9 @@
 {
-  "last_updated": "2026-07-23T17:22:12Z",
+  "last_updated": "2026-07-23T19:14:24Z",
   "total_auctions": 100,
   "auctions": [
     {
       "auction_date": "",
-      "property_address": "2978 Siwanoy Drive, Edgewood, 21040",
-      "auction_time": "1:40 PM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Harford County, at the Court House Door, 20 W. Courtland St., Bel Air, MD 21014",
-      "bid_deposit": "$16,000",
-      "opening_bid": "",
-      "principal_balance": "",
-      "substitute_trustee": "",
-      "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/134059",
-      "status": "cancelled",
-      "county": "Harford County",
-      "full_cash_value": ""
-    },
-    {
-      "auction_date": "July 23, 2026",
       "property_address": "7476 Merrymaker Way, Elkridge, 21075",
       "auction_time": "9:30 AM",
       "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Howard County, at the Court House Door, 9250 Judicial Way, Ellicott City, MD 21043",
@@ -1491,7 +1476,7 @@
       "auction_date": "August 07, 2026",
       "property_address": "14122 Chelmsford Road, Rockville, 20853",
       "auction_time": "3:25 PM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Montgomery County, at the Court House Door, 50 Maryland Ave., Rockville, MD 20850",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Howard County, at the Court House Door, 9250 Judicial Way, Ellicott City, MD 21043",
       "bid_deposit": "$30,000",
       "opening_bid": "",
       "principal_balance": "",
@@ -1499,6 +1484,21 @@
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/152559",
       "status": "active",
+      "county": "Montgomery County",
+      "full_cash_value": ""
+    },
+    {
+      "auction_date": "August 07, 2026",
+      "property_address": "306 Clagett Drive, Rockville, 20851",
+      "auction_time": "3:30 PM",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Montgomery County, at the Court House Door, 50 Maryland Ave., Rockville, MD 20850",
+      "bid_deposit": "$18,000",
+      "opening_bid": "",
+      "principal_balance": "",
+      "substitute_trustee": "",
+      "trustee_phone": "(410) 828-4838",
+      "detail_url": "https://realestate.alexcooper.com/lots/153059",
+      "status": "cancelled",
       "county": "Montgomery County",
       "full_cash_value": ""
     }
