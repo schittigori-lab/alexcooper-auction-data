@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-24T15:27:14Z",
+  "last_updated": "2026-07-24T17:31:30Z",
   "total_auctions": 95,
   "auctions": [
     {
@@ -270,7 +270,7 @@
       "detail_url": "https://realestate.alexcooper.com/lots/93659",
       "status": "active",
       "county": "Baltimore City",
-      "full_cash_value": ""
+      "full_cash_value": "$70,200"
     },
     {
       "auction_date": "July 30, 2026",
@@ -523,7 +523,7 @@
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/93559",
-      "status": "active",
+      "status": "cancelled",
       "county": "Howard County",
       "full_cash_value": ""
     },
