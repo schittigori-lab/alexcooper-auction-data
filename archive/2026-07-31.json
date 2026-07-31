@@ -1,39 +1,9 @@
 {
-  "last_updated": "2026-07-31T14:01:18Z",
-  "total_auctions": 100,
+  "last_updated": "2026-07-31T16:05:39Z",
+  "total_auctions": 98,
   "auctions": [
     {
       "auction_date": "",
-      "property_address": "692 Sunflower Court, Westminster, 21157",
-      "auction_time": "11:00 AM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Carroll County, at the Old Court House Door, East entrance (Willis Street), Westminster, MD 21157",
-      "bid_deposit": "$41,000",
-      "opening_bid": "",
-      "principal_balance": "",
-      "substitute_trustee": "",
-      "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/110059",
-      "status": "active",
-      "county": "Carroll County",
-      "full_cash_value": ""
-    },
-    {
-      "auction_date": "July 31, 2026",
-      "property_address": "834 Muller Road, Westminster, 21157",
-      "auction_time": "11:02 AM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Carroll County, at the Old Court House Door, East entrance (Willis Street), Westminster, MD 21157",
-      "bid_deposit": "$65,000",
-      "opening_bid": "",
-      "principal_balance": "",
-      "substitute_trustee": "",
-      "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/110259",
-      "status": "active",
-      "county": "Carroll County",
-      "full_cash_value": ""
-    },
-    {
-      "auction_date": "July 31, 2026",
       "property_address": "500 Heather Ridge Drive, Unit #6A, Frederick, 21702",
       "auction_time": "12:20 PM",
       "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Frederick County, at the Court House Door, 100 W. Patrick St., Frederick, MD 21701",
