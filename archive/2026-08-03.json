@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-03T14:35:29Z",
+  "last_updated": "2026-08-03T17:11:34Z",
   "total_auctions": 93,
   "auctions": [
     {
@@ -58,7 +58,7 @@
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/121759",
-      "status": "active",
+      "status": "cancelled",
       "county": "Charles County",
       "full_cash_value": ""
     },
@@ -493,7 +493,7 @@
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/95059",
-      "status": "active",
+      "status": "cancelled",
       "county": "Baltimore City",
       "full_cash_value": "$266,400"
     },
