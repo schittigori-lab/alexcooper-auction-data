@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-07T00:44:37Z",
+  "last_updated": "2026-08-07T12:59:45Z",
   "total_auctions": 100,
   "auctions": [
     {
@@ -13,7 +13,7 @@
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/140059",
-      "status": "active",
+      "status": "cancelled",
       "county": "Frederick County",
       "full_cash_value": ""
     },
