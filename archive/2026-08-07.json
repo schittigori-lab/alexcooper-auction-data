@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-07T12:59:45Z",
+  "last_updated": "2026-08-07T14:15:59Z",
   "total_auctions": 100,
   "auctions": [
     {
@@ -49,39 +49,9 @@
     },
     {
       "auction_date": "August 07, 2026",
-      "property_address": "7450 Mink Hollow Road, Highland, 20777",
-      "auction_time": "9:45 AM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Frederick County, at the Court House Door, 100 W. Patrick St., Frederick, MD 21701",
-      "bid_deposit": "$35,000",
-      "opening_bid": "",
-      "principal_balance": "",
-      "substitute_trustee": "",
-      "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/94559",
-      "status": "active",
-      "county": "Howard County",
-      "full_cash_value": ""
-    },
-    {
-      "auction_date": "August 07, 2026",
-      "property_address": "10028-B American Pharoah Lane, Unit #92, Laurel, 20723",
-      "auction_time": "9:50 AM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Howard County, at the Court House Door, 9250 Judicial Way, Ellicott City, MD 21043",
-      "bid_deposit": "$30,000",
-      "opening_bid": "",
-      "principal_balance": "",
-      "substitute_trustee": "",
-      "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/95059",
-      "status": "cancelled",
-      "county": "Howard County",
-      "full_cash_value": ""
-    },
-    {
-      "auction_date": "August 07, 2026",
       "property_address": "14122 Chelmsford Road, Rockville, 20853",
       "auction_time": "3:25 PM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Howard County, at the Court House Door, 9250 Judicial Way, Ellicott City, MD 21043",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Frederick County, at the Court House Door, 100 W. Patrick St., Frederick, MD 21701",
       "bid_deposit": "$30,000",
       "opening_bid": "",
       "principal_balance": "",
@@ -96,7 +66,7 @@
       "auction_date": "August 07, 2026",
       "property_address": "306 Clagett Drive, Rockville, 20851",
       "auction_time": "3:30 PM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Howard County, at the Court House Door, 9250 Judicial Way, Ellicott City, MD 21043",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Frederick County, at the Court House Door, 100 W. Patrick St., Frederick, MD 21701",
       "bid_deposit": "$18,000",
       "opening_bid": "",
       "principal_balance": "",
@@ -111,7 +81,7 @@
       "auction_date": "August 07, 2026",
       "property_address": "12213 Saint Peter Court, Apt. A, Germantown, 20874",
       "auction_time": "3:45 PM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Howard County, at the Court House Door, 9250 Judicial Way, Ellicott City, MD 21043",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Frederick County, at the Court House Door, 100 W. Patrick St., Frederick, MD 21701",
       "bid_deposit": "$10,000",
       "opening_bid": "",
       "principal_balance": "",
@@ -1491,7 +1461,7 @@
       "auction_date": "August 20, 2026",
       "property_address": "615 McCabe Avenue, Baltimore, 21212",
       "auction_time": "9:38 AM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Baltimore City, at the Clarence M. Mitchell Court House, 100 North Calvert Street, Court House Door, Calvert Street entrance, Baltimore, MD 21202",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Garrett County, auction to be held at the 317 Alder St. entrance, Oakland, MD 21550",
       "bid_deposit": "$17,500",
       "opening_bid": "",
       "principal_balance": "",
@@ -1501,6 +1471,36 @@
       "status": "active",
       "county": "Baltimore City",
       "full_cash_value": "$101,200"
+    },
+    {
+      "auction_date": "August 20, 2026",
+      "property_address": "2602 Orleans Street, Baltimore, 21224",
+      "auction_time": "9:43 AM",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Garrett County, auction to be held at the 317 Alder St. entrance, Oakland, MD 21550",
+      "bid_deposit": "$5,000",
+      "opening_bid": "",
+      "principal_balance": "",
+      "substitute_trustee": "",
+      "trustee_phone": "(410) 828-4838",
+      "detail_url": "https://realestate.alexcooper.com/lots/94359",
+      "status": "active",
+      "county": "Baltimore City",
+      "full_cash_value": "$111,300"
+    },
+    {
+      "auction_date": "August 20, 2026",
+      "property_address": "3723 Midheights Road, Baltimore, 21215",
+      "auction_time": "9:45 AM",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Baltimore City, at the Clarence M. Mitchell Court House, 100 North Calvert Street, Court House Door, Calvert Street entrance, Baltimore, MD 21202",
+      "bid_deposit": "$14,000",
+      "opening_bid": "",
+      "principal_balance": "",
+      "substitute_trustee": "",
+      "trustee_phone": "(410) 828-4838",
+      "detail_url": "https://realestate.alexcooper.com/lots/94559",
+      "status": "active",
+      "county": "Baltimore City",
+      "full_cash_value": "$148,600"
     }
   ]
 }
