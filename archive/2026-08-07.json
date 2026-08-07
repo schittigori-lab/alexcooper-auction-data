@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-07T14:15:59Z",
+  "last_updated": "2026-08-07T15:57:44Z",
   "total_auctions": 100,
   "auctions": [
     {
@@ -628,7 +628,7 @@
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/104759",
-      "status": "active",
+      "status": "cancelled",
       "county": "Montgomery County",
       "full_cash_value": ""
     },
