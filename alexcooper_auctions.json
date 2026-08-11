@@ -1,27 +1,12 @@
 {
-  "last_updated": "2026-08-11T13:00:19Z",
+  "last_updated": "2026-08-11T14:22:22Z",
   "total_auctions": 100,
   "auctions": [
     {
       "auction_date": "",
-      "property_address": "3 Ridout Street, Annapolis, 21401",
-      "auction_time": "9:37 AM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Anne Arundel County, at the Court House Door, 8 Church Circle, Annapolis, MD 21401",
-      "bid_deposit": "$12,000",
-      "opening_bid": "",
-      "principal_balance": "",
-      "substitute_trustee": "",
-      "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/93759",
-      "status": "cancelled",
-      "county": "Anne Arundel County",
-      "full_cash_value": ""
-    },
-    {
-      "auction_date": "August 11, 2026",
       "property_address": "735 Lazy River Road, Lusby, 20657",
       "auction_time": "2:00 PM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Anne Arundel County, at the Court House Door, 8 Church Circle, Annapolis, MD 21401",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Calvert County, at the Court House Door, 175 Main St., Prince Frederick, MD 20678",
       "bid_deposit": "$21,000",
       "opening_bid": "",
       "principal_balance": "",
@@ -88,7 +73,7 @@
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/111159",
-      "status": "active",
+      "status": "cancelled",
       "county": "Prince George's County",
       "full_cash_value": ""
     },
@@ -1491,7 +1476,7 @@
       "auction_date": "August 20, 2026",
       "property_address": "1648 East Belvedere Avenue, Baltimore, 21239",
       "auction_time": "9:59 AM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Baltimore City, at the Clarence M. Mitchell Court House, 100 North Calvert Street, Court House Door, Calvert Street entrance, Baltimore, MD 21202",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Garrett County, auction to be held at the 317 Alder St. entrance, Oakland, MD 21550",
       "bid_deposit": "$7,000",
       "opening_bid": "",
       "principal_balance": "",
@@ -1501,6 +1486,21 @@
       "status": "active",
       "county": "Baltimore City",
       "full_cash_value": "$151,800"
+    },
+    {
+      "auction_date": "August 20, 2026",
+      "property_address": "1836 Bolton Street, Baltimore, 21217",
+      "auction_time": "10:01 AM",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Baltimore City, at the Clarence M. Mitchell Court House, 100 North Calvert Street, Court House Door, Calvert Street entrance, Baltimore, MD 21202",
+      "bid_deposit": "$21,000",
+      "opening_bid": "",
+      "principal_balance": "",
+      "substitute_trustee": "",
+      "trustee_phone": "(410) 828-4838",
+      "detail_url": "https://realestate.alexcooper.com/lots/100159",
+      "status": "active",
+      "county": "Baltimore City",
+      "full_cash_value": "$389,400"
     }
   ]
 }
