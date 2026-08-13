@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-13T19:03:11Z",
+  "last_updated": "2026-08-13T20:01:18Z",
   "total_auctions": 100,
   "auctions": [
     {
@@ -13,7 +13,7 @@
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/121559",
-      "status": "active",
+      "status": "cancelled",
       "county": "Frederick County",
       "full_cash_value": ""
     },
@@ -688,7 +688,7 @@
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/134059",
-      "status": "active",
+      "status": "cancelled",
       "county": "District of Columbia",
       "full_cash_value": ""
     },
@@ -1183,7 +1183,7 @@
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/120759",
-      "status": "active",
+      "status": "cancelled",
       "county": "Frederick County",
       "full_cash_value": ""
     },
