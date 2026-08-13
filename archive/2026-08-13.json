@@ -1,39 +1,9 @@
 {
-  "last_updated": "2026-08-13T17:59:50Z",
+  "last_updated": "2026-08-13T19:03:11Z",
   "total_auctions": 100,
   "auctions": [
     {
       "auction_date": "",
-      "property_address": "943 Frenchtown Road, Elkton, 21921",
-      "auction_time": "2:15 PM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Cecil County, at the Court House Door, 129 E. Main St., Elkton, MD 21921",
-      "bid_deposit": "$26,000",
-      "opening_bid": "",
-      "principal_balance": "",
-      "substitute_trustee": "",
-      "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/141559",
-      "status": "active",
-      "county": "Cecil County",
-      "full_cash_value": ""
-    },
-    {
-      "auction_date": "August 13, 2026",
-      "property_address": "208 Ragan Road, Conowingo, 21918",
-      "auction_time": "2:17 PM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Cecil County, at the Court House Door, 129 E. Main St., Elkton, MD 21921",
-      "bid_deposit": "$16,000",
-      "opening_bid": "",
-      "principal_balance": "",
-      "substitute_trustee": "",
-      "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/141759",
-      "status": "active",
-      "county": "Cecil County",
-      "full_cash_value": ""
-    },
-    {
-      "auction_date": "August 13, 2026",
       "property_address": "13611B Pryor Road a/r/t/a 13611 Pryor Road, Unit B, Thurmont, 21788",
       "auction_time": "12:15 PM",
       "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Frederick County, at the Court House Door, 100 W. Patrick St., Frederick, MD 21701",
@@ -1491,7 +1461,7 @@
       "auction_date": "August 25, 2026",
       "property_address": "3104 Apple Creek Lane, Waldorf, 20603",
       "auction_time": "1:30 PM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Charles County, 200 Charles St., La Plata, MD 20646, (Sale will be held in the breezeway between the Circuit Court and the District Court)",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Caroline County, at the Court House Door, 109 Market St., Denton, MD 21629",
       "bid_deposit": "$33,000",
       "opening_bid": "",
       "principal_balance": "",
@@ -1500,6 +1470,36 @@
       "detail_url": "https://realestate.alexcooper.com/lots/133059",
       "status": "active",
       "county": "Charles County",
+      "full_cash_value": ""
+    },
+    {
+      "auction_date": "August 25, 2026",
+      "property_address": "6395 Port Tobacco Road, Welcome, 20693",
+      "auction_time": "1:32 PM",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Charles County, 200 Charles St., La Plata, MD 20646, (Sale will be held in the breezeway between the Circuit Court and the District Court)",
+      "bid_deposit": "$27,000",
+      "opening_bid": "",
+      "principal_balance": "",
+      "substitute_trustee": "",
+      "trustee_phone": "(410) 828-4838",
+      "detail_url": "https://realestate.alexcooper.com/lots/133259",
+      "status": "active",
+      "county": "Charles County",
+      "full_cash_value": ""
+    },
+    {
+      "auction_date": "August 25, 2026",
+      "property_address": "5815 Falkland Place, Capitol Heights, 20743",
+      "auction_time": "11:30 AM",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Prince George's County, 14735 Main St., Upper Marlboro, MD, 20772 (Duval Wing entrance, located on Main St.)",
+      "bid_deposit": "$25,000",
+      "opening_bid": "",
+      "principal_balance": "",
+      "substitute_trustee": "",
+      "trustee_phone": "(410) 828-4838",
+      "detail_url": "https://realestate.alexcooper.com/lots/113059",
+      "status": "active",
+      "county": "Prince George's County",
       "full_cash_value": ""
     }
   ]
