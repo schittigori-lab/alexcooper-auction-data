@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-14T17:54:51Z",
+  "last_updated": "2026-08-14T18:52:29Z",
   "total_auctions": 100,
   "auctions": [
     {
@@ -868,7 +868,7 @@
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/94959",
-      "status": "active",
+      "status": "cancelled",
       "county": "Baltimore City",
       "full_cash_value": "$71,500"
     },
