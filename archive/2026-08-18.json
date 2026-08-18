@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-18T17:30:39Z",
+  "last_updated": "2026-08-18T18:38:56Z",
   "total_auctions": 100,
   "auctions": [
     {
@@ -34,21 +34,6 @@
     },
     {
       "auction_date": "August 18, 2026",
-      "property_address": "81 Jockey Drive, La Plata, 20646",
-      "auction_time": "1:35 PM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Charles County, 200 Charles St., La Plata, MD 20646, (Sale will be held in the breezeway between the Circuit Court and the District Court)",
-      "bid_deposit": "$41,000",
-      "opening_bid": "",
-      "principal_balance": "",
-      "substitute_trustee": "",
-      "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/133559",
-      "status": "active",
-      "county": "Charles County",
-      "full_cash_value": ""
-    },
-    {
-      "auction_date": "August 18, 2026",
       "property_address": "21547 Port Court, Lexington Park, 20653",
       "auction_time": "2:35 PM",
       "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for St. Mary's County, at the Court House Door, 41605 Court House Dr., Leonardtown, MD 20650",
@@ -58,7 +43,7 @@
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/143559",
-      "status": "active",
+      "status": "cancelled",
       "county": "St. Mary's County",
       "full_cash_value": ""
     },
@@ -1491,7 +1476,7 @@
       "auction_date": "August 27, 2026",
       "property_address": "105 Hammond Avenue, Reisterstown, 21136",
       "auction_time": "12:04 PM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Baltimore County, at the Court House Door, 401 Bosley Ave. (Main Entrance Facing Patriot Plaza), Towson, MD 21204",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Baltimore City, at the Clarence M. Mitchell Court House, 100 North Calvert Street, Court House Door, Calvert Street entrance, Baltimore, MD 21202",
       "bid_deposit": "$30,000",
       "opening_bid": "",
       "principal_balance": "",
@@ -1499,6 +1484,21 @@
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/120459",
       "status": "cancelled",
+      "county": "Baltimore County",
+      "full_cash_value": ""
+    },
+    {
+      "auction_date": "August 27, 2026",
+      "property_address": "8928 Groffs Mill Drive, Owings Mills, 21117 Dep. SEE AD",
+      "auction_time": "12:08 PM",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Baltimore County, at the Court House Door, 401 Bosley Ave. (Main Entrance Facing Patriot Plaza), Towson, MD 21204",
+      "bid_deposit": "",
+      "opening_bid": "",
+      "principal_balance": "",
+      "substitute_trustee": "",
+      "trustee_phone": "(410) 828-4838",
+      "detail_url": "https://realestate.alexcooper.com/lots/120859",
+      "status": "active",
       "county": "Baltimore County",
       "full_cash_value": ""
     }
