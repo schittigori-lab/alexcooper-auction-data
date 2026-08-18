@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-18T18:38:56Z",
+  "last_updated": "2026-08-18T19:30:00Z",
   "total_auctions": 100,
   "auctions": [
     {
@@ -30,21 +30,6 @@
       "detail_url": "https://realestate.alexcooper.com/lots/154059",
       "status": "cancelled",
       "county": "Calvert County",
-      "full_cash_value": ""
-    },
-    {
-      "auction_date": "August 18, 2026",
-      "property_address": "21547 Port Court, Lexington Park, 20653",
-      "auction_time": "2:35 PM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for St. Mary's County, at the Court House Door, 41605 Court House Dr., Leonardtown, MD 20650",
-      "bid_deposit": "$34,000",
-      "opening_bid": "",
-      "principal_balance": "",
-      "substitute_trustee": "",
-      "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/143559",
-      "status": "cancelled",
-      "county": "St. Mary's County",
       "full_cash_value": ""
     },
     {
@@ -583,7 +568,7 @@
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/100159",
-      "status": "active",
+      "status": "cancelled",
       "county": "Baltimore City",
       "full_cash_value": "$389,400"
     },
@@ -988,7 +973,7 @@
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/111559",
-      "status": "active",
+      "status": "cancelled",
       "county": "Caroline County",
       "full_cash_value": ""
     },
@@ -1491,13 +1476,28 @@
       "auction_date": "August 27, 2026",
       "property_address": "8928 Groffs Mill Drive, Owings Mills, 21117 Dep. SEE AD",
       "auction_time": "12:08 PM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Baltimore County, at the Court House Door, 401 Bosley Ave. (Main Entrance Facing Patriot Plaza), Towson, MD 21204",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Baltimore City, at the Clarence M. Mitchell Court House, 100 North Calvert Street, Court House Door, Calvert Street entrance, Baltimore, MD 21202",
       "bid_deposit": "",
       "opening_bid": "",
       "principal_balance": "",
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/120859",
+      "status": "active",
+      "county": "Baltimore County",
+      "full_cash_value": ""
+    },
+    {
+      "auction_date": "August 27, 2026",
+      "property_address": "4728 Bonnie Brae Road, Pikesville, 21208 Dep. SEE AD",
+      "auction_time": "12:10 PM",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Baltimore County, at the Court House Door, 401 Bosley Ave. (Main Entrance Facing Patriot Plaza), Towson, MD 21204",
+      "bid_deposit": "",
+      "opening_bid": "",
+      "principal_balance": "",
+      "substitute_trustee": "",
+      "trustee_phone": "(410) 828-4838",
+      "detail_url": "https://realestate.alexcooper.com/lots/121059",
       "status": "active",
       "county": "Baltimore County",
       "full_cash_value": ""
