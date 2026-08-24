@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-24T17:31:54Z",
+  "last_updated": "2026-08-24T18:39:36Z",
   "total_auctions": 100,
   "auctions": [
     {
@@ -103,7 +103,7 @@
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/143259",
-      "status": "active",
+      "status": "cancelled",
       "county": "Calvert County",
       "full_cash_value": ""
     },
@@ -148,7 +148,7 @@
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/133259",
-      "status": "active",
+      "status": "cancelled",
       "county": "Charles County",
       "full_cash_value": ""
     },
