@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-24T19:30:54Z",
+  "last_updated": "2026-08-24T20:30:29Z",
   "total_auctions": 100,
   "auctions": [
     {
@@ -178,7 +178,7 @@
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/113759",
-      "status": "active",
+      "status": "cancelled",
       "county": "Prince George's County",
       "full_cash_value": ""
     },
@@ -778,7 +778,7 @@
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/124259",
-      "status": "active",
+      "status": "cancelled",
       "county": "Baltimore County",
       "full_cash_value": ""
     },
