@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-25T14:45:56Z",
+  "last_updated": "2026-08-25T15:43:12Z",
   "total_auctions": 100,
   "auctions": [
     {
@@ -19,24 +19,9 @@
     },
     {
       "auction_date": "August 25, 2026",
-      "property_address": "5043 Deanna Way, Federalsburg, 21632",
-      "auction_time": "11:15 AM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Caroline County, at the Court House Door, 109 Market St., Denton, MD 21629",
-      "bid_deposit": "$22,000",
-      "opening_bid": "",
-      "principal_balance": "",
-      "substitute_trustee": "",
-      "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/111559",
-      "status": "cancelled",
-      "county": "Caroline County",
-      "full_cash_value": ""
-    },
-    {
-      "auction_date": "August 25, 2026",
       "property_address": "3104 Apple Creek Lane, Waldorf, 20603",
       "auction_time": "1:30 PM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Caroline County, at the Court House Door, 109 Market St., Denton, MD 21629",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Calvert County, at the Court House Door, 175 Main St., Prince Frederick, MD 20678",
       "bid_deposit": "$33,000",
       "opening_bid": "",
       "principal_balance": "",
@@ -1093,7 +1078,7 @@
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/115259",
-      "status": "active",
+      "status": "cancelled",
       "county": "Prince George's County",
       "full_cash_value": ""
     },
@@ -1500,6 +1485,21 @@
       "detail_url": "https://realestate.alexcooper.com/lots/133059",
       "status": "active",
       "county": "Harford County",
+      "full_cash_value": ""
+    },
+    {
+      "auction_date": "September 03, 2026",
+      "property_address": "11639 Baugher Road a/r/t/a 11639 South Baugher Road, Thurmont, 21788",
+      "auction_time": "2:00 PM",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Frederick County, at the Court House Door, 100 W. Patrick St., Frederick, MD 21701",
+      "bid_deposit": "$52,000",
+      "opening_bid": "",
+      "principal_balance": "",
+      "substitute_trustee": "",
+      "trustee_phone": "(410) 828-4838",
+      "detail_url": "https://realestate.alexcooper.com/lots/140059",
+      "status": "active",
+      "county": "Frederick County",
       "full_cash_value": ""
     }
   ]
