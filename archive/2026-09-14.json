@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-14T17:40:17Z",
+  "last_updated": "2026-09-14T21:29:50Z",
   "total_auctions": 100,
   "auctions": [
     {
@@ -28,7 +28,7 @@
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/141059",
-      "status": "active",
+      "status": "cancelled",
       "county": "Calvert County",
       "full_cash_value": ""
     },
@@ -478,7 +478,7 @@
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/95759",
-      "status": "active",
+      "status": "cancelled",
       "county": "Baltimore City",
       "full_cash_value": "$264,300"
     },
