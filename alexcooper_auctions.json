@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-16T19:55:16Z",
+  "last_updated": "2026-09-16T22:42:34Z",
   "total_auctions": 100,
   "auctions": [
     {
@@ -418,7 +418,7 @@
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/114059",
-      "status": "active",
+      "status": "cancelled",
       "county": "Baltimore County",
       "full_cash_value": ""
     },
