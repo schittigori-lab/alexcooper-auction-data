@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-30T17:37:37Z",
+  "last_updated": "2026-09-30T21:54:42Z",
   "total_auctions": 100,
   "auctions": [
     {
@@ -223,7 +223,7 @@
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/114159",
-      "status": "active",
+      "status": "cancelled",
       "county": "Baltimore County",
       "full_cash_value": ""
     },
@@ -268,7 +268,7 @@
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/115359",
-      "status": "active",
+      "status": "cancelled",
       "county": "Baltimore County",
       "full_cash_value": ""
     },
@@ -658,7 +658,7 @@
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/92859",
-      "status": "active",
+      "status": "cancelled",
       "county": "Anne Arundel County",
       "full_cash_value": ""
     },
