@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-06T17:57:22Z",
+  "last_updated": "2026-10-06T22:20:34Z",
   "total_auctions": 100,
   "auctions": [
     {
@@ -283,7 +283,7 @@
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/94159",
-      "status": "active",
+      "status": "cancelled",
       "county": "Baltimore City",
       "full_cash_value": "$198,000"
     },
@@ -553,7 +553,7 @@
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/120059",
-      "status": "active",
+      "status": "cancelled",
       "county": "Frederick County",
       "full_cash_value": ""
     },
@@ -1303,7 +1303,7 @@
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/115359",
-      "status": "active",
+      "status": "cancelled",
       "county": "Baltimore County",
       "full_cash_value": ""
     },
