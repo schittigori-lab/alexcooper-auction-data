@@ -1,42 +1,12 @@
 {
-  "last_updated": "2026-10-13T18:54:43Z",
+  "last_updated": "2026-10-13T23:17:36Z",
   "total_auctions": 100,
   "auctions": [
     {
       "auction_date": "",
-      "property_address": "129 North Somerset Avenue, Crisfield, 21817",
-      "auction_time": "3:00 PM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Somerset County, at the Court House Door, 30512 Prince William St., Princess Anne, MD 21853",
-      "bid_deposit": "$22,000",
-      "opening_bid": "",
-      "principal_balance": "",
-      "substitute_trustee": "",
-      "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/150059",
-      "status": "active",
-      "county": "Somerset County",
-      "full_cash_value": ""
-    },
-    {
-      "auction_date": "October 13, 2026",
-      "property_address": "3381 Sackertown Road, Crisfield, 21817",
-      "auction_time": "3:02 PM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Somerset County, at the Court House Door, 30512 Prince William St., Princess Anne, MD 21853",
-      "bid_deposit": "$22,000",
-      "opening_bid": "",
-      "principal_balance": "",
-      "substitute_trustee": "",
-      "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/150259",
-      "status": "active",
-      "county": "Somerset County",
-      "full_cash_value": ""
-    },
-    {
-      "auction_date": "October 13, 2026",
       "property_address": "1915 Norman Road, Glen Burnie, 21060",
       "auction_time": "9:15 AM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Somerset County, at the Court House Door, 30512 Prince William St., Princess Anne, MD 21853",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Anne Arundel County, at the Court House Door, 8 Church Circle, Annapolis, MD 21401",
       "bid_deposit": "$36,000",
       "opening_bid": "",
       "principal_balance": "",
@@ -118,7 +88,7 @@
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/123559",
-      "status": "active",
+      "status": "cancelled",
       "county": "Charles County",
       "full_cash_value": ""
     },
@@ -268,7 +238,7 @@
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/105759",
-      "status": "active",
+      "status": "cancelled",
       "county": "Prince George's County",
       "full_cash_value": ""
     },
@@ -450,7 +420,7 @@
       "detail_url": "https://realestate.alexcooper.com/lots/93959",
       "status": "active",
       "county": "Baltimore City",
-      "full_cash_value": "$160,900"
+      "full_cash_value": ""
     },
     {
       "auction_date": "October 15, 2026",
@@ -1320,7 +1290,7 @@
       "detail_url": "https://realestate.alexcooper.com/lots/92559",
       "status": "active",
       "county": "Baltimore City",
-      "full_cash_value": "$137,200"
+      "full_cash_value": ""
     },
     {
       "auction_date": "October 22, 2026",
@@ -1491,7 +1461,7 @@
       "auction_date": "October 22, 2026",
       "property_address": "2619 North Hilton Street, Baltimore, 21216",
       "auction_time": "10:03 AM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Baltimore City, at the Clarence M. Mitchell Court House, 100 North Calvert Street, Court House Door, Calvert Street entrance, Baltimore, MD 21202",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD AT THE DC OFFICE OF ALEX COOPER AUCTS., INC. LOCATED AT 4910 MASSACHUSETTS AVE., NW #100, WASH DC 20016",
       "bid_deposit": "$15,000",
       "opening_bid": "",
       "principal_balance": "",
@@ -1501,6 +1471,36 @@
       "status": "active",
       "county": "Baltimore City",
       "full_cash_value": "$121,300"
+    },
+    {
+      "auction_date": "October 22, 2026",
+      "property_address": "336 South Calhoun Street, Baltimore, 21223",
+      "auction_time": "10:05 AM",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD AT THE DC OFFICE OF ALEX COOPER AUCTS., INC. LOCATED AT 4910 MASSACHUSETTS AVE., NW #100, WASH DC 20016",
+      "bid_deposit": "$13,000",
+      "opening_bid": "",
+      "principal_balance": "",
+      "substitute_trustee": "",
+      "trustee_phone": "(410) 828-4838",
+      "detail_url": "https://realestate.alexcooper.com/lots/100559",
+      "status": "active",
+      "county": "Baltimore City",
+      "full_cash_value": "$27,000"
+    },
+    {
+      "auction_date": "October 22, 2026",
+      "property_address": "811 North Streeper Street, Baltimore, 21205",
+      "auction_time": "10:07 AM",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Baltimore City, at the Clarence M. Mitchell Court House, 100 North Calvert Street, Court House Door, Calvert Street entrance, Baltimore, MD 21202",
+      "bid_deposit": "$15,000",
+      "opening_bid": "",
+      "principal_balance": "",
+      "substitute_trustee": "",
+      "trustee_phone": "(410) 828-4838",
+      "detail_url": "https://realestate.alexcooper.com/lots/100759",
+      "status": "active",
+      "county": "Baltimore City",
+      "full_cash_value": "$220,000"
     }
   ]
 }
