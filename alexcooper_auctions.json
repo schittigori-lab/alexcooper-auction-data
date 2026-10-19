@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-19T18:22:04Z",
+  "last_updated": "2026-10-19T22:53:05Z",
   "total_auctions": 100,
   "auctions": [
     {
@@ -958,7 +958,7 @@
       "substitute_trustee": "",
       "trustee_phone": "(410) 828-4838",
       "detail_url": "https://realestate.alexcooper.com/lots/130059",
-      "status": "active",
+      "status": "cancelled",
       "county": "Charles County",
       "full_cash_value": ""
     },
