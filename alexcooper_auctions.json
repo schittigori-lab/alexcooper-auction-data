@@ -1,39 +1,9 @@
 {
-  "last_updated": "2026-11-19T19:59:20Z",
+  "last_updated": "2026-11-20T01:45:00Z",
   "total_auctions": 100,
   "auctions": [
     {
       "auction_date": "",
-      "property_address": "42 Chestnut Drive, Elkton, 21921",
-      "auction_time": "3:30 PM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Cecil County, at the Court House Door, 129 E. Main St., Elkton, MD 21921",
-      "bid_deposit": "$18,000",
-      "opening_bid": "",
-      "principal_balance": "",
-      "substitute_trustee": "",
-      "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/153059",
-      "status": "active",
-      "county": "Cecil County",
-      "full_cash_value": ""
-    },
-    {
-      "auction_date": "November 19, 2026",
-      "property_address": "4 Upland Court, Elkton, 21921",
-      "auction_time": "3:32 PM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Cecil County, at the Court House Door, 129 E. Main St., Elkton, MD 21921",
-      "bid_deposit": "$16,000",
-      "opening_bid": "",
-      "principal_balance": "",
-      "substitute_trustee": "",
-      "trustee_phone": "(410) 828-4838",
-      "detail_url": "https://realestate.alexcooper.com/lots/153259",
-      "status": "cancelled",
-      "county": "Cecil County",
-      "full_cash_value": ""
-    },
-    {
-      "auction_date": "November 19, 2026",
       "property_address": "3195 Grafton Street, Manchester, 21102",
       "auction_time": "11:45 AM",
       "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Carroll County, at the Old Court House Door, East entrance (Willis Street), Westminster, MD 21157",
@@ -1491,7 +1461,7 @@
       "auction_date": "December 03, 2026",
       "property_address": "714 Rainbow Court, Edgewood, 21040",
       "auction_time": "2:00 PM",
-      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Harford County, at the Court House Door, 20 W. Courtland St., Bel Air, MD 21014",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Cecil County, at the Court House Door, 129 E. Main St., Elkton, MD 21921",
       "bid_deposit": "$26,000",
       "opening_bid": "",
       "principal_balance": "",
@@ -1500,6 +1470,36 @@
       "detail_url": "https://realestate.alexcooper.com/lots/140059",
       "status": "active",
       "county": "Harford County",
+      "full_cash_value": ""
+    },
+    {
+      "auction_date": "December 03, 2026",
+      "property_address": "4339 Norrisville Road, White Hall, 21161",
+      "auction_time": "2:02 PM",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Harford County, at the Court House Door, 20 W. Courtland St., Bel Air, MD 21014",
+      "bid_deposit": "$28,000",
+      "opening_bid": "",
+      "principal_balance": "",
+      "substitute_trustee": "",
+      "trustee_phone": "(410) 828-4838",
+      "detail_url": "https://realestate.alexcooper.com/lots/140259",
+      "status": "active",
+      "county": "Harford County",
+      "full_cash_value": ""
+    },
+    {
+      "auction_date": "December 03, 2026",
+      "property_address": "544 Buckhorn Road, Sykesville, 21784",
+      "auction_time": "10:45 AM",
+      "auction_location": "THE ABOVE SALE(S) TO BE HELD  at the Circuit Court for Carroll County, at the Old Court House Door, East entrance (Willis Street), Westminster, MD 21157",
+      "bid_deposit": "$29,000",
+      "opening_bid": "",
+      "principal_balance": "",
+      "substitute_trustee": "",
+      "trustee_phone": "(410) 828-4838",
+      "detail_url": "https://realestate.alexcooper.com/lots/104559",
+      "status": "active",
+      "county": "Carroll County",
       "full_cash_value": ""
     }
   ]
